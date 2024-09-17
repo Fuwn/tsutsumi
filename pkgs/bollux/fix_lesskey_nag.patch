@@ -1,0 +1,13 @@
+diff --git i/bollux w/bollux
+index 267418e..090217e 100755
+--- i/bollux
++++ w/bollux
+@@ -1130,7 +1130,7 @@ display() { # display METADATA [TITLE]
+ 		# text, and pre-formatted text shouldn't wrap.
+ 		less_cmd+=(-S)
+ 		# Load the keybindings (see `lesskey').
+-		mklesskey && less_cmd+=(-k "$BOLLUX_LESSKEY")
++		mklesskey && less_cmd+=(--lesskey-src="$BOLLUX_LESSKEY")
+ 		local helpline="${KEY_OPEN}:open, "
+ 		helpline+="${KEY_GOTO}/"
+ 		helpline+="${KEY_GOTO_FROM}:goto, "
