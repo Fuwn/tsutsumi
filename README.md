@@ -2,6 +2,9 @@
 
 > Top-level Flake for Applications and Libraries Packaged for Nix
 
+Test out any of these applications without installing anything by running
+`nix run github:Fuwn/tsutsumi#rui`. (or any other package)
+
 ## Applications
 
 - [bollux](https://tildegit.org/acdw/bollux) - a Gemini browser in like, idk, 96% pure Bash
