@@ -14,7 +14,7 @@ pkgs.appimageTools.wrapType2 {
   src = "${thorium-archive}";
 
   meta = with lib; {
-    description = "Chromium fork named after radioactive element No. 90. Windows and MacOS/Raspi/Android/Special builds are in different repositories, links are towards the top of the README.md.";
+    description = "Chromium fork named after radioactive element No. 90.";
     sourceProvenance = with sourceTypes; [ binaryNativeCode ];
     homepage = "https://thorium.rocks/";
     license = licenses.bsd3;

@@ -17,7 +17,7 @@ Test out any of these applications without installing anything by running
 - [Rui](https://github.com/Fuwn/rui/) (`rui`) - Personal NixOS Flake Manager
 - [swaddle](https://github.com/ATTron/swaddle) - Swayidle inhibitor when watching content or listening to audio
 - [t](https://github.com/nixports/t) - A command-line todo list manager for people that want to finish tasks, not organize them.
-- [Thorium](https://thorium.rocks/) (`thorium`) - Chromium fork named after radioactive element No. 90. Windows and MacOS/Raspi/Android/Special builds are in different repositories, links are towards the top of the README.md."
+- [Thorium](https://thorium.rocks/) (`thorium`) - Chromium fork named after radioactive element No. 90.
 - [Yaak](https://yaak.app/) (`yaak`) - The API client for modern developers
 - [Zen Browser](https://zen-browser.app/) (`zen-browser-bin`)
 
