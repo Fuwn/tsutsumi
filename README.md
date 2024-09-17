@@ -9,17 +9,17 @@ Test out any of these applications without installing anything by running
 
 - [bollux](https://tildegit.org/acdw/bollux) - a Gemini browser in like, idk, 96% pure Bash
 - [ahoviewer](https://github.com/ahodesuka/ahoviewer) - A GTK image viewer, manga reader, and booru browser
-- [BindToInterface](https://github.com/JsBergbau/BindToInterface) - With this program you can bind applications to a specific network interface / network adapter.
+- [BindToInterface](https://github.com/JsBergbau/BindToInterface) (`bindtointerface`) - With this program you can bind applications to a specific network interface / network adapter.
 - [cargo-clean-all](https://github.com/dnlmlr/cargo-clean-all)
 - [chan-downloader](https://github.com/nixports/chan-downloader) - CLI to download all images/webms in a 4chan thread
 - [git-sumi](https://github.com/welpo/git-sumi) - The non-opinionated Rust-based commit message linter.
-- [Private Internet Access](https://www.privateinternetaccess.com/) - Private Internet Access: The Best VPN for Digital Privacy
-- [Rui](https://github.com/Fuwn/rui/) - Personal NixOS Flake Manager
+- [Private Internet Access](https://www.privateinternetaccess.com/) (`pia`) - Private Internet Access: The Best VPN for Digital Privacy
+- [Rui](https://github.com/Fuwn/rui/) (`rui`) - Personal NixOS Flake Manager
 - [swaddle](https://github.com/ATTron/swaddle) - Swayidle inhibitor when watching content or listening to audio
 - [t](https://github.com/nixports/t) - A command-line todo list manager for people that want to finish tasks, not organize them.
-- [Thorium](https://thorium.rocks/) - Chromium fork named after radioactive element No. 90. Windows and MacOS/Raspi/Android/Special builds are in different repositories, links are towards the top of the README.md."
-- [Yaak](https://yaak.app/) - The API client for modern developers
-- [Zen Browser](https://zen-browser.app/)
+- [Thorium](https://thorium.rocks/) (`thorium`) - Chromium fork named after radioactive element No. 90. Windows and MacOS/Raspi/Android/Special builds are in different repositories, links are towards the top of the README.md."
+- [Yaak](https://yaak.app/) (`yaak`) - The API client for modern developers
+- [Zen Browser](https://zen-browser.app/) (`zen-browser-bin`)
 
 ## Installation
 
