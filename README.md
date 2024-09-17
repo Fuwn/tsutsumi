@@ -17,6 +17,36 @@
 - [Yaak](https://yaak.app/) - The API client for modern developers
 - [Zen Browser](https://zen-browser.app/)
 
+## Installation
+
+### Add to Flake Inputs (for Flakes Users)
+
+```nix
+{
+  inputs.tsutsumi = {
+    url = "github:Fuwn/tsutsumi";
+    inputs.nixpkgs.follows = "nixpkgs"; # Recommended
+  };
+}
+```
+
+### Add to System or Home Manager Packages
+
+```nix
+# For flakes users
+tsutsumi.packages.${pkgs.system}.rui # Or any other package
+
+# For non-flakes users
+(import (
+  pkgs.fetchFromGitHub {
+    owner = "Fuwn";
+    repo = "tsutsumi";
+    rev = "...";  # Use the current commit revision hash
+    hash = "..."; # Use the current commit sha256 hash
+  }
+)).packages.${builtins.currentSystem}.rui # Or any other package
+```
+
 ## Credits
 
 This flake includes a modified version of
