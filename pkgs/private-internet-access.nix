@@ -6,7 +6,7 @@
 }:
 stdenvNoCC.mkDerivation rec {
   pname = "private-internet-access";
-  version = "3.5.7";
+  version = "3.6.1";
   unpackPhase = "true";
 
   nativeBuildInputs = [
@@ -15,17 +15,13 @@ stdenvNoCC.mkDerivation rec {
   ];
 
   src = pkgs.fetchurl {
-    url = "https://installers.privateinternetaccess.com/download/pia-linux-${version}-08120.run";
-    hash = "sha256-QVlIGqSXerSwZtqeLvjmQS/p7Z1JJIPWQLWQj+ZA6/g=";
+    url = "https://installers.privateinternetaccess.com/download/pia-linux-${version}-08339.run";
+    hash = "sha256-bxTGPHt/vF50guovtCOBr63m3IvPmBZjKBOt+hEsphM=";
   };
 
   buildInputs = with pkgs; [
-    bash
-    coreutils
-    libGL
-    libsForQt5.qt5.full
-    libsForQt5.qt5.qtgamepad
-    libsForQt5.qt5.qtremoteobjects
+    qt6.full
+    libcap_ng
   ];
 
   installPhase = ''
