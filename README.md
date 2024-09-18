@@ -13,7 +13,7 @@ Test out any of these applications without installing anything by running
 - [cargo-clean-all](https://github.com/dnlmlr/cargo-clean-all)
 - [chan-downloader](https://github.com/nixports/chan-downloader) - CLI to download all images/webms in a 4chan thread
 - [git-sumi](https://github.com/welpo/git-sumi) - The non-opinionated Rust-based commit message linter.
-- [Private Internet Access](https://www.privateinternetaccess.com/) (`pia`) - Private Internet Access: The Best VPN for Digital Privacy
+- [Private Internet Access](https://www.privateinternetaccess.com/) (`private-internet-access`) - Private Internet Access: The Best VPN for Digital Privacy
 - [Rui](https://github.com/Fuwn/rui/) (`rui`) - Personal NixOS Flake Manager
 - [swaddle](https://github.com/ATTron/swaddle) - Swayidle inhibitor when watching content or listening to audio
 - [t](https://github.com/nixports/t) - A command-line todo list manager for people that want to finish tasks, not organize them.
