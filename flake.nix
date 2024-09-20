@@ -68,6 +68,7 @@
           bindtointerface = pkgs.callPackage ./pkgs/bindtointerface.nix { };
           cargo-clean-all = pkgs.callPackage ./pkgs/cargo-clean-all.nix { };
           chan-downloader = pkgs.callPackage ./pkgs/chan-downloader.nix { };
+          code-stats-ls = pkgs.callPackage ./pkgs/code-stats-ls.nix { };
           git-sumi = pkgs.callPackage ./pkgs/git-sumi.nix { };
           private-internet-access = pkgs.callPackage ./pkgs/private-internet-access.nix { };
           rui = rui.packages.${system}.default;
