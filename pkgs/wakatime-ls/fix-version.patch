@@ -1,0 +1,12 @@
+diff --git i/Cargo.toml w/Cargo.toml
+index 25f850e..a8f500f 100644
+--- i/Cargo.toml
++++ w/Cargo.toml
+@@ -1,6 +1,6 @@
+ [package]
+ name = "wakatime-ls"
+-version.workspace = true
++version = "0.1.2"
+ edition = "2021"
+ repository = "https://github.com/wakatime/zed-wakatime"
+ 

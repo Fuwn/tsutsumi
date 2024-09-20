@@ -64,6 +64,8 @@
       {
         packages = {
           bollux = pkgs.callPackage ./pkgs/bollux { };
+          wakatime-ls = pkgs.callPackage ./pkgs/wakatime-ls { };
+          zen-browser-bin = pkgs.callPackage ./pkgs/zen-browser-bin { };
           ahoviewer = pkgs.callPackage ./pkgs/t.nix { };
           bindtointerface = pkgs.callPackage ./pkgs/bindtointerface.nix { };
           cargo-clean-all = pkgs.callPackage ./pkgs/cargo-clean-all.nix { };
@@ -76,7 +78,6 @@
           t = pkgs.callPackage ./pkgs/t.nix { };
           thorium = pkgs.callPackage ./pkgs/thorium.nix { };
           yaak = pkgs.callPackage ./pkgs/yaak.nix { };
-          zen-browser-bin = pkgs.callPackage ./pkgs/zen-browser-bin { };
         };
 
         formatter = nixpkgs.legacyPackages."${system}".nixfmt-rfc-style;

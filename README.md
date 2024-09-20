@@ -8,6 +8,8 @@ Test out any of these applications without installing anything by running
 ## Applications
 
 - [bollux](https://tildegit.org/acdw/bollux) - a Gemini browser in like, idk, 96% pure Bash
+- [wakatime-ls](https://github.com/wakatime/zed-wakatime/tree/master/wakatime-ls) - A language server for [Wakatime](https://wakatime.com/).
+- [Zen Browser](https://zen-browser.app/) (`zen-browser-bin`)
 - [ahoviewer](https://github.com/ahodesuka/ahoviewer) - A GTK image viewer, manga reader, and booru browser
 - [BindToInterface](https://github.com/JsBergbau/BindToInterface) (`bindtointerface`) - With this program you can bind applications to a specific network interface / network adapter.
 - [cargo-clean-all](https://github.com/dnlmlr/cargo-clean-all)
@@ -20,7 +22,6 @@ Test out any of these applications without installing anything by running
 - [t](https://github.com/nixports/t) - A command-line todo list manager for people that want to finish tasks, not organize them.
 - [Thorium](https://thorium.rocks/) (`thorium`) - Chromium fork named after radioactive element No. 90.
 - [Yaak](https://yaak.app/) (`yaak`) - The API client for modern developers
-- [Zen Browser](https://zen-browser.app/) (`zen-browser-bin`)
 
 ## Installation
 
