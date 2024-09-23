@@ -142,11 +142,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1727062679,
-        "narHash": "sha256-OMNw+bMhik4H8JglfuP/3NpM8yntFkUSrWLPBMKYUO0=",
+        "lastModified": 1727077063,
+        "narHash": "sha256-z1Y+fXhNCkb7DXfCupF0AM6bDz3ZFBHrCYHni2QUu4Q=",
         "owner": "Fuwn",
         "repo": "rui",
-        "rev": "acd236a56227f11219085fe0745becb193911973",
+        "rev": "7ac881cea13d72ef80c287118cd30d63fbbfd5f3",
         "type": "github"
       },
       "original": {
