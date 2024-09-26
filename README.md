@@ -8,6 +8,7 @@ Test out any of these applications without installing anything by running
 ## Applications
 
 - [bollux](https://tildegit.org/acdw/bollux) - a Gemini browser in like, idk, 96% pure Bash
+- [cynic-cli](https://github.com/obmarg/cynic/tree/main/cynic-cli) - A CLI for Cynic, the code first GraphQL client for Rust
 - [wakatime-ls](https://github.com/wakatime/zed-wakatime/tree/master/wakatime-ls) - A language server for [Wakatime](https://wakatime.com/).
 - [Zen Browser](https://zen-browser.app/) (`zen-browser-bin`)
 - [ahoviewer](https://github.com/ahodesuka/ahoviewer) - A GTK image viewer, manga reader, and booru browser

@@ -1,0 +1,37 @@
+diff --git i/Cargo.toml w/Cargo.toml
+index 300b80a..6f0c0f8 100644
+--- i/Cargo.toml
++++ w/Cargo.toml
+@@ -4,13 +4,13 @@ description = "A CLI for cynic, a code first GraphQL client for Rust"
+ keywords = ["graphql", "client", "introspection", "cli"]
+ readme = "README.md"
+
+-version = { workspace = true }
+-authors = { workspace = true }
+-edition = { workspace = true }
+-homepage = { workspace = true }
+-license = { workspace = true }
+-repository = { workspace = true }
+-rust-version = { workspace = true }
++version = "3.8.0"
++authors = ["Graeme Coupar <graeme@turbofish.tech>"]
++edition = "2021"
++homepage = "https://cynic-rs.dev"
++license = "MPL-2.0"
++repository = "https://github.com/obmarg/cynic"
++rust-version = "1.72"
+
+ # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+@@ -21,9 +21,9 @@ path = "src/main.rs"
+ [dependencies]
+ clap = { version = "4", features = ["derive"] }
+ colored = "2"
+-cynic = { path = "../cynic", version = "3.8.0", features = ["http-reqwest-blocking"] }
+-cynic-introspection = { path = "../cynic-introspection", version = "3.8.0" }
+-cynic-querygen = { path = "../cynic-querygen", version = "3.8.0" }
++cynic = { version = "3.8.0", features = ["http-reqwest-blocking"] }
++cynic-introspection = { version = "3.8.0" }
++cynic-querygen = { version = "3.8.0" }
+ reqwest = { version = "0.12", features = ["blocking"] }
+ thiserror = "1"
