@@ -2,8 +2,9 @@
 
 > Top-level Flake for Applications and Libraries Packaged for Nix
 
-Test out any of these applications without installing anything by running
-`nix run github:Fuwn/tsutsumi#rui`. (or any other package)
+Test out any of these applications without installing anything permanently by
+running `nix run github:Fuwn/tsutsumi#rui`. (or any other package in place of
+`rui`)
 
 ## Applications
 
