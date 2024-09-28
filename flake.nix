@@ -47,16 +47,26 @@
         systems.follows = "systems";
       };
     };
+
+    mayu = {
+      url = "github:Fuwn/mayu";
+
+      inputs = {
+        flake-utils.follows = "flake-utils";
+        nixpkgs.follows = "nixpkgs";
+      };
+    };
   };
 
   outputs =
     {
-      self,
-      nixpkgs,
       flake-utils,
+      gigi,
+      mayu,
+      nixpkgs,
       pre-commit-hooks,
       rui,
-      gigi,
+      self,
       ...
     }:
     flake-utils.lib.eachDefaultSystem (
@@ -87,6 +97,7 @@
           code-stats-ls = pkgs.callPackage ./pkgs/code-stats-ls.nix { };
           gigi = gigi.packages.${system}.default;
           git-sumi = pkgs.callPackage ./pkgs/git-sumi.nix { };
+          mayu = mayu.packages.${system}.default;
           private-internet-access = pkgs.callPackage ./pkgs/private-internet-access.nix { };
           rui = rui.packages.${system}.default;
           swaddle = pkgs.callPackage ./pkgs/swaddle.nix { };

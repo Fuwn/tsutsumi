@@ -28,6 +28,8 @@ running `nix run github:Fuwn/tsutsumi#rui`. (or any other package in place of
 - [gigi](https://github.com/Fuwn/gigi/) - An honest Finger protocol server
 - [git-sumi](https://github.com/welpo/git-sumi) - The non-opinionated Rust-based
   commit message linter.
+- [Mayu](https://github.com/Fuwn/mayu) - Moe-Counter Compatible Website Hit
+  Counter Written in Gleam
 - [Private Internet Access](https://www.privateinternetaccess.com/)
   (`private-internet-access`) - Private Internet Access: The Best VPN for
   Digital Privacy
