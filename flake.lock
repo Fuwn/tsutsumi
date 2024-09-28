@@ -36,6 +36,38 @@
         "type": "github"
       }
     },
+    "gigi": {
+      "inputs": {
+        "flake-compat": [
+          "flake-compat"
+        ],
+        "flake-utils": [
+          "flake-utils"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "pre-commit-hooks": [
+          "pre-commit-hooks"
+        ],
+        "systems": [
+          "systems"
+        ]
+      },
+      "locked": {
+        "lastModified": 1727514042,
+        "narHash": "sha256-WzfQetUow/Xb1GfXx0eIw2mLjIyoeTiDaRwm532KPIQ=",
+        "owner": "Fuwn",
+        "repo": "gigi",
+        "rev": "3709b31dbbdbe51d0e315559adcb56c907883266",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Fuwn",
+        "repo": "gigi",
+        "type": "github"
+      }
+    },
     "gitignore": {
       "inputs": {
         "nixpkgs": [
@@ -117,6 +149,7 @@
       "inputs": {
         "flake-compat": "flake-compat",
         "flake-utils": "flake-utils",
+        "gigi": "gigi",
         "nixpkgs": "nixpkgs",
         "pre-commit-hooks": "pre-commit-hooks",
         "rui": "rui",

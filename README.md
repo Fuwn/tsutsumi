@@ -25,6 +25,7 @@ running `nix run github:Fuwn/tsutsumi#rui`. (or any other package in place of
   download all images/webms in a 4chan thread
 - [code-stats-ls](https://github.com/maxdeviant/code-stats-ls) - A language
   server for Code::Stats
+- [gigi](https://github.com/Fuwn/gigi/) - An honest Finger protocol server
 - [git-sumi](https://github.com/welpo/git-sumi) - The non-opinionated Rust-based
   commit message linter.
 - [Private Internet Access](https://www.privateinternetaccess.com/)

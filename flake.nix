@@ -35,6 +35,18 @@
         systems.follows = "systems";
       };
     };
+
+    gigi = {
+      url = "github:Fuwn/gigi";
+
+      inputs = {
+        flake-compat.follows = "flake-compat";
+        flake-utils.follows = "flake-utils";
+        nixpkgs.follows = "nixpkgs";
+        pre-commit-hooks.follows = "pre-commit-hooks";
+        systems.follows = "systems";
+      };
+    };
   };
 
   outputs =
@@ -44,6 +56,7 @@
       flake-utils,
       pre-commit-hooks,
       rui,
+      gigi,
       ...
     }:
     flake-utils.lib.eachDefaultSystem (
@@ -72,6 +85,7 @@
           cargo-clean-all = pkgs.callPackage ./pkgs/cargo-clean-all.nix { };
           chan-downloader = pkgs.callPackage ./pkgs/chan-downloader.nix { };
           code-stats-ls = pkgs.callPackage ./pkgs/code-stats-ls.nix { };
+          gigi = gigi.packages.${system}.default;
           git-sumi = pkgs.callPackage ./pkgs/git-sumi.nix { };
           private-internet-access = pkgs.callPackage ./pkgs/private-internet-access.nix { };
           rui = rui.packages.${system}.default;
