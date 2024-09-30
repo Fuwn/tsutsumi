@@ -126,11 +126,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1727663699,
-        "narHash": "sha256-0osZZnUy/RbjagF4/avQbICI4xKHfud7r7e6CXwAliY=",
+        "lastModified": 1727666938,
+        "narHash": "sha256-8CaILQp7/f85RbgpxhNKvHFe9qpTqpH4nQHlydzpQoo=",
         "owner": "gemrest",
         "repo": "maple",
-        "rev": "f61973715e2b9a7528c05a9c69a2ca10f6708f82",
+        "rev": "53eafff719d9c026cd04c62a0e31a913c66cdaf5",
         "type": "github"
       },
       "original": {
