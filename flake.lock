@@ -110,6 +110,35 @@
         "type": "github"
       }
     },
+    "maple": {
+      "inputs": {
+        "flake-compat": [
+          "flake-compat"
+        ],
+        "flake-utils": [
+          "flake-utils"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "systems": [
+          "systems"
+        ]
+      },
+      "locked": {
+        "lastModified": 1727663699,
+        "narHash": "sha256-0osZZnUy/RbjagF4/avQbICI4xKHfud7r7e6CXwAliY=",
+        "owner": "gemrest",
+        "repo": "maple",
+        "rev": "f61973715e2b9a7528c05a9c69a2ca10f6708f82",
+        "type": "github"
+      },
+      "original": {
+        "owner": "gemrest",
+        "repo": "maple",
+        "type": "github"
+      }
+    },
     "mayu": {
       "inputs": {
         "flake-utils": [
@@ -211,6 +240,7 @@
         "flake-compat": "flake-compat",
         "flake-utils": "flake-utils",
         "gigi": "gigi",
+        "maple": "maple",
         "mayu": "mayu",
         "nixpkgs": "nixpkgs",
         "pre-commit-hooks": "pre-commit-hooks",

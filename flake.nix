@@ -48,6 +48,17 @@
       };
     };
 
+    maple = {
+      url = "github:gemrest/maple";
+
+      inputs = {
+        flake-compat.follows = "flake-compat";
+        flake-utils.follows = "flake-utils";
+        nixpkgs.follows = "nixpkgs";
+        systems.follows = "systems";
+      };
+    };
+
     mayu = {
       url = "github:Fuwn/mayu";
 
@@ -62,6 +73,7 @@
     {
       flake-utils,
       gigi,
+      maple,
       mayu,
       nixpkgs,
       pre-commit-hooks,
@@ -97,6 +109,7 @@
           code-stats-ls = pkgs.callPackage ./pkgs/code-stats-ls.nix { };
           gigi = gigi.packages.${system}.default;
           git-sumi = pkgs.callPackage ./pkgs/git-sumi.nix { };
+          maple = maple.packages.${system}.default;
           mayu = mayu.packages.${system}.default;
           private-internet-access = pkgs.callPackage ./pkgs/private-internet-access.nix { };
           rui = rui.packages.${system}.default;
