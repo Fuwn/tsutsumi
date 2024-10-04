@@ -100,6 +100,7 @@
         packages = {
           bollux = pkgs.callPackage ./pkgs/bollux { };
           cynic-cli = pkgs.callPackage ./pkgs/cynic-cli { };
+          peerflix = pkgs.callPackage ./pkgs/peerflix { };
           wakatime-ls = pkgs.callPackage ./pkgs/wakatime-ls { };
           zen-browser-bin = pkgs.callPackage ./pkgs/zen-browser-bin { };
           ahoviewer = pkgs.callPackage ./pkgs/t.nix { };
