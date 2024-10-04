@@ -64,7 +64,7 @@ running `nix run github:Fuwn/tsutsumi#rui`. (or any other package in place of
 
 ```nix
 # For flakes users
-tsutsumi.packages.${pkgs.system}.rui # Or any other package
+inputs.tsutsumi.packages.${pkgs.system}.rui # Or any other package
 
 # For non-flakes users
 (import (
@@ -75,6 +75,24 @@ tsutsumi.packages.${pkgs.system}.rui # Or any other package
     hash = "..."; # Use the current commit sha256 hash
   }
 )).packages.${builtins.currentSystem}.rui # Or any other package
+```
+
+### Use as a Nix Packages Overlay
+
+Overlaying Tsutsumi allows you to simplify the mass installation of Tsutsumi
+packages. For example, `inputs.tsutsumi.packages.${pkgs.system}.rui` becomes
+`pkgs.tsutsumi.rui`.
+
+```nix
+import nixpkgs {
+  system = "your_system_attribute";
+
+  overlays = [
+    (_: _: {
+      tsutsumi = inputs.tsutsumi.packages.${system};
+    })
+  ];
+}
 ```
 
 ## Credits
