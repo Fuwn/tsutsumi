@@ -39,6 +39,7 @@ running `nix run github:Fuwn/tsutsumi#rui`. (or any other package in place of
   (`private-internet-access`) - Private Internet Access: The Best VPN for
   Digital Privacy
 - [Rui](https://github.com/Fuwn/rui/) (`rui`) - Personal NixOS Flake Manager
+- [`suzuri`](https://github.com/Fuwn/suzuri) - Command-line Interface to [sumi.news](https://sumi.news)
 - [swaddle](https://github.com/ATTron/swaddle) - Swayidle inhibitor when
   watching content or listening to audio
 - [t](https://github.com/nixports/t) - A command-line todo list manager for

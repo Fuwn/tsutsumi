@@ -115,6 +115,7 @@
           html2md = pkgs.callPackage ./pkgs/html2md.nix { };
           private-internet-access = pkgs.callPackage ./pkgs/private-internet-access.nix { };
           rui = rui.packages.${system}.default;
+          suzuri = pkgs.callPackage ./pkgs/suzuri.nix { inherit (self.packages.${system}) html2md; };
           swaddle = pkgs.callPackage ./pkgs/swaddle.nix { };
           t = pkgs.callPackage ./pkgs/t.nix { };
           thorium = pkgs.callPackage ./pkgs/thorium.nix { };
