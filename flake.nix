@@ -112,6 +112,7 @@
           git-sumi = pkgs.callPackage ./pkgs/git-sumi.nix { };
           maple = maple.packages.${system}.default;
           mayu = mayu.packages.${system}.default;
+          html2md = pkgs.callPackage ./pkgs/html2md.nix { };
           private-internet-access = pkgs.callPackage ./pkgs/private-internet-access.nix { };
           rui = rui.packages.${system}.default;
           swaddle = pkgs.callPackage ./pkgs/swaddle.nix { };

@@ -34,6 +34,7 @@ running `nix run github:Fuwn/tsutsumi#rui`. (or any other package in place of
   server, now with Titan support!
 - [Mayu](https://github.com/Fuwn/mayu) - Moe-Counter Compatible Website Hit
   Counter Written in Gleam
+- [html2md](https://github.com/suntong/html2md) - HTML to Markdown converter
 - [Private Internet Access](https://www.privateinternetaccess.com/)
   (`private-internet-access`) - Private Internet Access: The Best VPN for
   Digital Privacy
