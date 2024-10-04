@@ -38,28 +38,22 @@
     },
     "gigi": {
       "inputs": {
-        "flake-compat": [
-          "flake-compat"
-        ],
         "flake-utils": [
           "flake-utils"
         ],
         "nixpkgs": [
           "nixpkgs"
         ],
-        "pre-commit-hooks": [
-          "pre-commit-hooks"
-        ],
         "systems": [
           "systems"
         ]
       },
       "locked": {
-        "lastModified": 1727735868,
-        "narHash": "sha256-5PVuUCaKtC2FtuRFHMxzMdoqqzcH+tKoj+bGngqdSM8=",
+        "lastModified": 1728055350,
+        "narHash": "sha256-38qLnfzmL7Om6Z9BRuFI9DX/ccKlLN74rUHSxWiEmCg=",
         "owner": "Fuwn",
         "repo": "gigi",
-        "rev": "d4a74df30bd7bb3d2999c9e28838542ab26780b1",
+        "rev": "11675972de7e3cf10d11470fc736ec78aa00ee18",
         "type": "github"
       },
       "original": {
