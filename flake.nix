@@ -118,6 +118,10 @@
           thorium = pkgs.callPackage ./pkgs/thorium.nix { };
           yaak = pkgs.callPackage ./pkgs/yaak.nix { };
           zen-browser-bin = pkgs.callPackage ./pkgs/zen-browser-bin.nix { inherit pkgs self; };
+
+          zen-browser-twilight-bin = pkgs.callPackage ./pkgs/zen-browser-twilight-bin.nix {
+            inherit pkgs self;
+          };
         };
 
         formatter = nixpkgs.legacyPackages."${system}".nixfmt-rfc-style;

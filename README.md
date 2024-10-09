@@ -16,7 +16,6 @@ running `nix run github:Fuwn/tsutsumi#rui`. (or any other package in place of
   for node.js
 - [wakatime-ls](https://github.com/wakatime/zed-wakatime/tree/master/wakatime-ls)
   \- A language server for [Wakatime](https://wakatime.com/).
-- [Zen Browser](https://zen-browser.app/) (`zen-browser-bin`) (alpha)
 - [ahoviewer](https://github.com/ahodesuka/ahoviewer) - A GTK image viewer,
   manga reader, and booru browser
 - [BindToInterface](https://github.com/JsBergbau/BindToInterface)
@@ -47,6 +46,8 @@ running `nix run github:Fuwn/tsutsumi#rui`. (or any other package in place of
 - [Thorium](https://thorium.rocks/) (`thorium`) - Chromium fork named after
   radioactive element No. 90.
 - [Yaak](https://yaak.app/) (`yaak`) - The API client for modern developers
+- [Zen Browser](https://zen-browser.app/) (`zen-browser-bin`) (Alpha)
+- [Zen Browser](https://zen-browser.app/) (`zen-browser-twilight-bin`) (Twilight)
 
 ## Installation
 
