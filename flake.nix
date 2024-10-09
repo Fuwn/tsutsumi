@@ -85,6 +85,13 @@
         pkgs = import nixpkgs {
           inherit system;
 
+          config.allowUnfreePredicate =
+            pkg:
+            builtins.elem (pkgs.lib.getName pkg) [
+              "private-internet-access"
+              "yaak"
+            ];
+
           overlays = [
             (final: _: {
               buildRustPackage = import ./lib/build-rust-package.nix {
