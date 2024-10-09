@@ -99,6 +99,21 @@ import nixpkgs {
 }
 ```
 
+### Binary Cache
+
+To speed up the consumption of Tsutsumi packages, add the Tsutsumi binary cache
+to your NixOS configuration.
+
+```nix
+nix.settings = {
+  substituters = [ "https://tsutsumi.cachix.org" ];
+
+  trusted-public-keys = [
+    "tsutsumi.cachix.org-1:MojIlGI60CT5EoyuTgjB4VRVgf/uUvakZVWoYJThQNk="
+  ];
+};
+```
+
 ## Credits
 
 This flake includes a modified version of
