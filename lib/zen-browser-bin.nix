@@ -18,25 +18,10 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 # DEALINGS IN THE SOFTWARE.
 
-{
-  stdenv,
-  lib,
-  fetchzip,
-  makeDesktopItem,
-  autoPatchelfHook,
-  wrapGAppsHook3,
-  copyDesktopItems,
-  gtk3,
-  alsa-lib,
-  dbus-glib,
-  xorg,
-  pciutils,
-  libva,
-  pipewire,
-  libglvnd,
-}:
+{ version, hash }:
+{ pkgs }:
 let
-  desktopItem = makeDesktopItem {
+  desktopItem = pkgs.makeDesktopItem {
     name = "zen-browser";
     desktopName = "Zen Browser";
     genericName = "Web Browser";
@@ -88,24 +73,26 @@ let
     };
   };
 in
-stdenv.mkDerivation rec {
-  pname = "zen-browser-bin";
-  version = "1.0.1-a.7";
+pkgs.stdenv.mkDerivation rec {
+  inherit version;
 
-  src = fetchzip {
+  pname = "zen-browser-bin";
+
+  src = pkgs.fetchzip {
+    inherit hash;
+
     url = "https://github.com/zen-browser/desktop/releases/download/${version}/zen.linux-specific.tar.bz2";
-    hash = "sha256-0EYfH8hFStQMpxn5YZ/EP4vX8sn4bGmWobpZgygTi7Y=";
   };
 
   desktopItems = [ desktopItem ];
 
-  nativeBuildInputs = [
+  nativeBuildInputs = with pkgs; [
     autoPatchelfHook
     wrapGAppsHook3
     copyDesktopItems
   ];
 
-  buildInputs = [
+  buildInputs = with pkgs; [
     gtk3
     alsa-lib
     dbus-glib
@@ -134,7 +121,8 @@ stdenv.mkDerivation rec {
   preFixup = ''
     gappsWrapperArgs+=(
       --prefix LD_LIBRARY_PATH : "${
-        lib.makeLibraryPath [
+        with pkgs;
+        pkgs.lib.makeLibraryPath [
           pciutils
           pipewire
           libva
@@ -146,7 +134,7 @@ stdenv.mkDerivation rec {
     wrapGApp $out/lib/zen/zen
   '';
 
-  meta = with lib; {
+  meta = with pkgs.lib; {
     license = licenses.mpl20;
     maintainers = with maintainers; [ mordrag ];
     description = "Experience tranquillity while browsing the web without people tracking you! ";
