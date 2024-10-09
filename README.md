@@ -46,8 +46,10 @@ running `nix run github:Fuwn/tsutsumi#rui`. (or any other package in place of
 - [Thorium](https://thorium.rocks/) (`thorium`) - Chromium fork named after
   radioactive element No. 90.
 - [Yaak](https://yaak.app/) (`yaak`) - The API client for modern developers
-- [Zen Browser](https://zen-browser.app/) (`zen-browser-bin`) (Alpha)
-- [Zen Browser](https://zen-browser.app/) (`zen-browser-twilight-bin`) (Twilight)
+- [Zen Browser](https://zen-browser.app/) (`zen-browser-bin`) - Firefox based
+  browser with a focus on privacy and customisation (alpha release)
+- [Zen Browser](https://zen-browser.app/) (`zen-browser-twilight-bin`) Firefox based
+  browser with a focus on privacy and customisation (twilight release)
 
 ## Installation
 
