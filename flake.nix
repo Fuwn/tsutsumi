@@ -117,6 +117,7 @@
           maple = maple.packages.${system}.default;
           mayu = mayu.packages.${system}.default;
           html2md = pkgs.callPackage ./pkgs/html2md.nix { };
+          lilipod = pkgs.callPackage ./pkgs/lilipod.nix { };
           private-internet-access = pkgs.callPackage ./pkgs/private-internet-access.nix { };
           rui = rui.packages.${system}.default;
           suzuri = pkgs.callPackage ./pkgs/suzuri.nix { inherit (self.packages.${system}) html2md; };

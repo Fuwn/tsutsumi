@@ -34,6 +34,7 @@ running `nix run github:Fuwn/tsutsumi#rui`. (or any other package in place of
 - [Mayu](https://github.com/Fuwn/mayu) - Moe-Counter compatible website hit
   counter written in Gleam
 - [html2md](https://github.com/suntong/html2md) - Command-line HTML to Markdown converter
+- [Lilipod](https://github.com/89luca89/lilipod) - Simple container manager
 - [Private Internet Access](https://www.privateinternetaccess.com/)
   (`private-internet-access`) - Private Internet Access VPN binaries and
   configuration files
