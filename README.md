@@ -8,44 +8,44 @@ running `nix run github:Fuwn/tsutsumi#rui`. (or any other package in place of
 
 ## Applications
 
-- [bollux](https://tildegit.org/acdw/bollux) - a Gemini browser in like, idk,
-  96% pure Bash
-- [cynic-cli](https://github.com/obmarg/cynic/tree/main/cynic-cli) - A CLI for
+- [bollux](https://tildegit.org/acdw/bollux) - Command-line Gemini browser
+  written in Bash
+- [cynic-cli](https://github.com/obmarg/cynic/tree/main/cynic-cli) - CLI for
   Cynic, the code first GraphQL client for Rust
-- [peerflix](https://github.com/mafintosh/peerflix) - Streaming torrent client
-  for node.js
+- [peerflix](https://github.com/mafintosh/peerflix) - Command-line streaming
+  BitTorrent client
 - [wakatime-ls](https://github.com/wakatime/zed-wakatime/tree/master/wakatime-ls)
-  \- A language server for [Wakatime](https://wakatime.com/).
-- [ahoviewer](https://github.com/ahodesuka/ahoviewer) - A GTK image viewer,
+  \- Language server for [Wakatime](https://wakatime.com/)
+- [ahoviewer](https://github.com/ahodesuka/ahoviewer) - GTK image viewer,
   manga reader, and booru browser
 - [BindToInterface](https://github.com/JsBergbau/BindToInterface)
-  (`bindtointerface`) - With this program you can bind applications to a
-  specific network interface / network adapter.
-- [cargo-clean-all](https://github.com/dnlmlr/cargo-clean-all)
+  (`bindtointerface`) - Bind applications to a specific network
+  interface/network adapter
+- [cargo-clean-all](https://github.com/dnlmlr/cargo-clean-all) - Recursively
+  clean all Cargo projects in a given directory that match the specified criteria
 - [chan-downloader](https://github.com/nixports/chan-downloader) - CLI to
   download all images/webms in a 4chan thread
-- [code-stats-ls](https://github.com/maxdeviant/code-stats-ls) - A language
+- [code-stats-ls](https://github.com/maxdeviant/code-stats-ls) - Language
   server for Code::Stats
-- [gigi](https://github.com/Fuwn/gigi/) - An honest Finger protocol server
-- [git-sumi](https://github.com/welpo/git-sumi) - The non-opinionated Rust-based
-  commit message linter.
-- [Maple](https://github.com/gemrest/maple) - A very simple static Gemini
-  server, now with Titan support!
-- [Mayu](https://github.com/Fuwn/mayu) - Moe-Counter Compatible Website Hit
-  Counter Written in Gleam
-- [html2md](https://github.com/suntong/html2md) - HTML to Markdown converter
+- [gigi](https://github.com/Fuwn/gigi/) - Finger protocol server
+- [git-sumi](https://github.com/welpo/git-sumi) - Non-opinionated Rust-based
+  commit message linter
+- [Maple](https://github.com/gemrest/maple) - Static Gemini server with Titan support
+- [Mayu](https://github.com/Fuwn/mayu) - Moe-Counter compatible website hit
+  counter written in Gleam
+- [html2md](https://github.com/suntong/html2md) - Command-line HTML to Markdown converter
 - [Private Internet Access](https://www.privateinternetaccess.com/)
-  (`private-internet-access`) - Private Internet Access: The Best VPN for
-  Digital Privacy
-- [Rui](https://github.com/Fuwn/rui/) (`rui`) - Personal NixOS Flake Manager
-- [`suzuri`](https://github.com/Fuwn/suzuri) - Command-line Interface to [sumi.news](https://sumi.news)
-- [swaddle](https://github.com/ATTron/swaddle) - Swayidle inhibitor when
+  (`private-internet-access`) - Private Internet Access VPN binaries and
+  configuration files
+- [Rui](https://github.com/Fuwn/rui/) (`rui`) - Personal NixOS flake manager
+- [`suzuri`](https://github.com/Fuwn/suzuri) - Command-line interface to [sumi.news](https://sumi.news)
+- [swaddle](https://github.com/ATTron/swaddle) - `swayidle` inhibitor when
   watching content or listening to audio
-- [t](https://github.com/nixports/t) - A command-line todo list manager for
-  people that want to finish tasks, not organize them.
-- [Thorium](https://thorium.rocks/) (`thorium`) - Chromium fork named after
-  radioactive element No. 90.
-- [Yaak](https://yaak.app/) (`yaak`) - The API client for modern developers
+- [t](https://github.com/nixports/t) - Command-line TODO list manager for
+  people that want to finish tasks, not organize them
+- [Thorium](https://thorium.rocks/) (`thorium`) - Fast and secure browser that
+  uses modern CPU flags and LLVM optimizations
+- [Yaak](https://yaak.app/) (`yaak`) - API client for modern developers
 - [Zen Browser](https://zen-browser.app/) (`zen-browser-bin`) - Firefox based
   browser with a focus on privacy and customisation (alpha release)
 - [Zen Browser](https://zen-browser.app/) (`zen-browser-twilight-bin`) Firefox based
