@@ -4,7 +4,7 @@
 
 Test out any of these applications without installing anything permanently by
 running `nix run github:Fuwn/tsutsumi#rui`. (or any other package in place of
-`rui`)
+`rui`, [continued](#nix-run-with-binary-cache))
 
 ## Applications
 
@@ -100,7 +100,7 @@ import nixpkgs {
 }
 ```
 
-### Binary Cache
+## Binary Cache
 
 To speed up the consumption of Tsutsumi packages, add the Tsutsumi binary cache
 to your NixOS configuration.
@@ -113,6 +113,14 @@ nix.settings = {
     "tsutsumi.cachix.org-1:MojIlGI60CT5EoyuTgjB4VRVgf/uUvakZVWoYJThQNk="
   ];
 };
+```
+
+### Nix Run With Binary Cache
+
+```bash
+nix run github:Fuwn/tsutsumi#rui \
+  --extra-substituters "https://tsutsumi.cachix.org" \
+  --extra-trusted-public-keys "tsutsumi.cachix.org-1:MojIlGI60CT5EoyuTgjB4VRVgf/uUvakZVWoYJThQNk="
 ```
 
 ## Credits
