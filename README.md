@@ -117,6 +117,8 @@ nix.settings = {
 
 ### Nix Run With Binary Cache
 
+Replace `rui` with any other package name made available by Tsutsumi.
+
 ```bash
 nix run github:Fuwn/tsutsumi#rui \
   --extra-substituters "https://tsutsumi.cachix.org" \
