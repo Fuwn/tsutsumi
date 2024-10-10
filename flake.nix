@@ -1,6 +1,14 @@
 {
   description = "Top-level Flake for Applications and Libraries Packaged for Nix";
 
+  nixConfig = {
+    extra-substituters = [ "https://tsutsumi.cachix.org" ];
+
+    trusted-public-keys = [
+      "tsutsumi.cachix.org-1:MojIlGI60CT5EoyuTgjB4VRVgf/uUvakZVWoYJThQNk="
+    ];
+  };
+
   outputs =
     {
       flake-utils,
