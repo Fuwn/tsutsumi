@@ -20,7 +20,7 @@
       rui,
       self,
       ...
-    }:
+    }@inputs:
     flake-utils.lib.eachDefaultSystem (
       system:
       let
@@ -68,7 +68,7 @@
           swaddle = pkgs.callPackage ./pkgs/swaddle.nix { };
           t = pkgs.callPackage ./pkgs/t.nix { };
           thorium = pkgs.callPackage ./pkgs/thorium.nix { };
-          yae = yae.packages.${system}.default;
+          yae = inputs.yae.packages.${system}.default;
           yaak = pkgs.callPackage ./pkgs/yaak.nix { };
           zen-browser-bin = pkgs.callPackage ./pkgs/zen-browser-bin.nix { inherit pkgs self yae; };
 
