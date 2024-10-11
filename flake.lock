@@ -239,7 +239,8 @@
         "nixpkgs": "nixpkgs",
         "pre-commit-hooks": "pre-commit-hooks",
         "rui": "rui",
-        "systems": "systems"
+        "systems": "systems",
+        "wiene": "wiene"
       }
     },
     "rui": {
@@ -286,6 +287,38 @@
       "original": {
         "owner": "nix-systems",
         "repo": "default",
+        "type": "github"
+      }
+    },
+    "wiene": {
+      "inputs": {
+        "flake-compat": [
+          "flake-compat"
+        ],
+        "flake-utils": [
+          "flake-utils"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "pre-commit-hooks": [
+          "pre-commit-hooks"
+        ],
+        "systems": [
+          "systems"
+        ]
+      },
+      "locked": {
+        "lastModified": 1728609919,
+        "narHash": "sha256-yx2NGX7fVKfP2plWdAe1ZyEVBabqrGwp02qoHZXsCIo=",
+        "owner": "Fuwn",
+        "repo": "wiene",
+        "rev": "a00423ae76a0ff235c3dc54edebcbbda11bfbb1e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Fuwn",
+        "repo": "wiene",
         "type": "github"
       }
     }
