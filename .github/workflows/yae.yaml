@@ -14,11 +14,11 @@ jobs:
         run: nix --accept-flake-config profile install "github:Fuwn/yae"
       - name: Yae Update
         id: yae_update
-        run: yae update --show-updated-only | tee yae_update_output.txt
+        run: yae update --show-updated-only-formatted | tee yae_update_output.txt
       - name: Commit and Push Changes
         run: |-
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
-          git diff-index --quiet HEAD || git commit -m "feat(pkgs): yae says bump $(cat yae_update_output.txt | tr '\n' ',' | sed 's/,/, /g' | sed 's/, $//')"
+          git diff-index --quiet HEAD || git commit -m "feat(pkgs): yae says bump $(cat yae_update_output.txt | tr -d '\n')"
           git push
