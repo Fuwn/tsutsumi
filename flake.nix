@@ -67,7 +67,7 @@
           suzuri = pkgs.callPackage ./pkgs/suzuri.nix { inherit (self.packages.${system}) html2md; };
           swaddle = pkgs.callPackage ./pkgs/swaddle.nix { };
           t = pkgs.callPackage ./pkgs/t.nix { };
-          thorium = pkgs.callPackage ./pkgs/thorium.nix { };
+          thorium = pkgs.callPackage ./pkgs/thorium.nix { inherit yae; };
           yae = inputs.yae.packages.${system}.default;
           yaak = pkgs.callPackage ./pkgs/yaak.nix { inherit yae; };
           zen-browser-bin = pkgs.callPackage ./pkgs/zen-browser-bin.nix { inherit pkgs self yae; };

@@ -1,4 +1,14 @@
 {
+  "thorium": {
+    "url": "https://github.com/Alex313031/thorium/releases/download/M126.0.6478.246/Thorium_Browser_126.0.6478.246_Th24_SSE4.AppImage",
+    "sha256": "1l4wm60wir6qxhz9ll15fn9jjymqkasdfz88gixyj0wjz73indlb",
+    "unpack": false,
+    "type": "git",
+    "version": "126.0.6478.246",
+    "uri_template": "https://github.com/Alex313031/thorium/releases/download/M{version}/Thorium_Browser_{version}_Th24_SSE4.AppImage",
+    "trim_tag_prefix": "M",
+    "pinned": true
+  },
   "yaak": {
     "url": "https://github.com/yaakapp/app/releases/download/v2024.10.1/yaak_2024.10.1_amd64.AppImage.tar.gz",
     "sha256": "0aqi52w8cb025zmfi6xlwz6mxzwmy3m8mnfbh2z2h6mvdjlqlxsy",

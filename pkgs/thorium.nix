@@ -1,17 +1,16 @@
-{ pkgs, lib }:
-let
-  thorium-version = "126.0.6478.246";
-  thorium-release = "${thorium-version}_Th24_SSE4";
-
-  thorium-archive = pkgs.fetchurl {
-    url = "https://github.com/Alex313031/thorium/releases/download/M${thorium-version}/Thorium_Browser_${thorium-release}.AppImage";
-    hash = "sha256-izYbx/mSA+l7fAh917SauHopk3UlUJo+7NjkyIGpnNA=";
-  };
-in
+{
+  pkgs,
+  lib,
+  yae,
+}:
 pkgs.appimageTools.wrapType2 {
+  inherit (yae.thorium) version;
+
   pname = "thorium";
-  version = thorium-version;
-  src = "${thorium-archive}";
+
+  src = pkgs.fetchurl {
+    inherit (yae.thorium) url sha256;
+  };
 
   meta = with lib; {
     description = "Chromium fork named after radioactive element No. 90.";
