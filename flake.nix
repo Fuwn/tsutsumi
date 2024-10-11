@@ -110,7 +110,10 @@
         devShells.default = pkgs.mkShell {
           inherit (self.checks.${system}.pre-commit-check) shellHook;
 
-          buildInputs = [ pkgs.just ] ++ self.checks.${system}.pre-commit-check.enabledPackages;
+          buildInputs = [
+            pkgs.just
+            self.packages.${system}.yae
+          ] ++ self.checks.${system}.pre-commit-check.enabledPackages;
         };
       }
     );

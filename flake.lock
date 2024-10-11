@@ -239,8 +239,7 @@
         "nixpkgs": "nixpkgs",
         "pre-commit-hooks": "pre-commit-hooks",
         "rui": "rui",
-        "systems": "systems",
-        "yae2": "yae2"
+        "systems": "systems"
       }
     },
     "rui": {
@@ -287,38 +286,6 @@
       "original": {
         "owner": "nix-systems",
         "repo": "default",
-        "type": "github"
-      }
-    },
-    "yae2": {
-      "inputs": {
-        "flake-compat": [
-          "flake-compat"
-        ],
-        "flake-utils": [
-          "flake-utils"
-        ],
-        "nixpkgs": [
-          "nixpkgs"
-        ],
-        "pre-commit-hooks": [
-          "pre-commit-hooks"
-        ],
-        "systems": [
-          "systems"
-        ]
-      },
-      "locked": {
-        "lastModified": 1728684440,
-        "narHash": "sha256-Nl/ryx+RjEZiSKR3l7/qrYfHqi3NEA/qgGBYQUZ0WhU=",
-        "owner": "Fuwn",
-        "repo": "yae",
-        "rev": "2a4f2ad8756a75906d980a0fc7fbbb478ddd36ff",
-        "type": "github"
-      },
-      "original": {
-        "owner": "Fuwn",
-        "repo": "yae",
         "type": "github"
       }
     }
