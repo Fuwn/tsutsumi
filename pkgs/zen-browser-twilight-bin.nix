@@ -1,5 +1,10 @@
-{ pkgs, self }:
+{
+  pkgs,
+  self,
+  yae,
+}:
 import "${self}/lib/zen-browser-bin.nix" {
+  inherit (yae.zen-browser-twilight-bin) sha256;
+
   version = "twilight";
-  hash = "sha256-MAUJpJE3rqBcDAJqKwM8gCaRuAft32OvC75DSdctDHU=";
 } { inherit pkgs; }

@@ -18,7 +18,11 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 # DEALINGS IN THE SOFTWARE.
 
-{ version, hash }:
+{
+  version,
+  hash ? "",
+  sha256 ? "",
+}:
 { pkgs }:
 let
   desktopItem = pkgs.makeDesktopItem {
@@ -79,7 +83,7 @@ pkgs.stdenv.mkDerivation rec {
   pname = "zen-browser-bin";
 
   src = pkgs.fetchzip {
-    inherit hash;
+    inherit hash sha256;
 
     url = "https://github.com/zen-browser/desktop/releases/download/${version}/zen.linux-specific.tar.bz2";
   };

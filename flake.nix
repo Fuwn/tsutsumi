@@ -19,7 +19,6 @@
       pre-commit-hooks,
       rui,
       self,
-      yae,
       ...
     }:
     flake-utils.lib.eachDefaultSystem (
@@ -43,6 +42,8 @@
             })
           ];
         };
+
+        yae = builtins.fromJSON (builtins.readFile "${self}/yae.json");
       in
       {
         packages = {
@@ -69,10 +70,10 @@
           thorium = pkgs.callPackage ./pkgs/thorium.nix { };
           yae = yae.packages.${system}.default;
           yaak = pkgs.callPackage ./pkgs/yaak.nix { };
-          zen-browser-bin = pkgs.callPackage ./pkgs/zen-browser-bin.nix { inherit pkgs self; };
+          zen-browser-bin = pkgs.callPackage ./pkgs/zen-browser-bin.nix { inherit pkgs self yae; };
 
           zen-browser-twilight-bin = pkgs.callPackage ./pkgs/zen-browser-twilight-bin.nix {
-            inherit pkgs self;
+            inherit pkgs self yae;
           };
         };
 

@@ -1,0 +1,12 @@
+{
+  "zen-browser-bin": {
+    "url": "https://github.com/zen-browser/desktop/releases/download/1.0.1-a.7/zen.linux-specific.tar.bz2",
+    "sha256": "1dlb2cl86ndsl6b6jv7qr7rdg2rzqjgn3y8rlw6d8jj5r0giyinh",
+    "unpack": true
+  },
+  "zen-browser-twilight-bin": {
+    "url": "https://github.com/zen-browser/desktop/releases/download/twilight/zen.linux-specific.tar.bz2",
+    "sha256": "1rppq9swq65ck98lm4skbd5jaxslbz72ijnh66z8c580wwbca2da",
+    "unpack": true
+  }
+}
