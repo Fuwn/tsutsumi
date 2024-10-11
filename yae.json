@@ -5,7 +5,7 @@
     "unpack": false,
     "type": "git",
     "version": "126.0.6478.246",
-    "uri_template": "https://github.com/Alex313031/thorium/releases/download/M{version}/Thorium_Browser_{version}_Th24_SSE4.AppImage",
+    "url_template": "https://github.com/Alex313031/thorium/releases/download/M{version}/Thorium_Browser_{version}_Th24_SSE4.AppImage",
     "trim_tag_prefix": "M",
     "pinned": true
   },
@@ -15,7 +15,7 @@
     "unpack": false,
     "type": "git",
     "version": "2024.6.6",
-    "uri_template": "https://github.com/yaakapp/app/releases/download/v{version}/yaak_{version}_amd64.AppImage.tar.gz",
+    "url_template": "https://github.com/yaakapp/app/releases/download/v{version}/yaak_{version}_amd64.AppImage.tar.gz",
     "trim_tag_prefix": "v",
     "pinned": true
   },
@@ -25,7 +25,7 @@
     "unpack": true,
     "type": "git",
     "version": "1.0.1-a.8",
-    "uri_template": "https://github.com/zen-browser/desktop/releases/download/{version}/zen.linux-specific.tar.bz2",
+    "url_template": "https://github.com/zen-browser/desktop/releases/download/{version}/zen.linux-specific.tar.bz2",
     "tag_predicate": "1.0"
   },
   "zen-browser-twilight-bin": {
@@ -34,6 +34,6 @@
     "unpack": true,
     "type": "binary",
     "version": "twilight",
-    "uri_template": "https://github.com/zen-browser/desktop/releases/download/{version}/zen.linux-specific.tar.bz2"
+    "url_template": "https://github.com/zen-browser/desktop/releases/download/{version}/zen.linux-specific.tar.bz2"
   }
 }
