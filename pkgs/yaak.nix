@@ -1,19 +1,32 @@
 {
   pkgs,
   lib,
+  yae,
 }:
 let
-  yaak-version = "2024.6.6";
-
-  yaak-archive = pkgs.fetchzip {
-    url = "https://releases.yaak.app/releases/${yaak-version}/yaak_${yaak-version}_amd64.AppImage.tar.gz";
-    hash = "sha256-Qnc4RlQmQWHARreQ69jAshq57bZ56Yt5a35jpTjGwNU=";
-  };
+  inherit (yae.yaak) version;
 in
 pkgs.appimageTools.wrapType2 {
+  inherit version;
+
   pname = "yaak";
-  version = yaak-version;
-  src = "${yaak-archive}/yaak_${yaak-version}_amd64.AppImage";
+
+  src =
+    let
+      unzipped-archive =
+        let
+          archive = pkgs.fetchurl {
+            inherit (yae.yaak) url sha256;
+          };
+        in
+        pkgs.runCommand "unzipped" { } ''
+          mkdir -p $out
+          tar -xvf ${archive} -C $out
+        '';
+    in
+    "${unzipped-archive}/yaak_${version}_amd64.AppImage";
+
+  buildInputs = [ pkgs.bzip2 ];
 
   meta = with lib; {
     description = "The API client for modern developers";

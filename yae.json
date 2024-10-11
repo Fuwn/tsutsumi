@@ -1,4 +1,12 @@
 {
+  "yaak": {
+    "url": "https://github.com/yaakapp/app/releases/download/v2024.10.1/yaak_2024.10.1_amd64.AppImage.tar.gz",
+    "sha256": "0aqi52w8cb025zmfi6xlwz6mxzwmy3m8mnfbh2z2h6mvdjlqlxsy",
+    "unpack": false,
+    "type": "git",
+    "version": "2024.10.1",
+    "uri_template": "https://github.com/yaakapp/app/releases/download/v{version}/yaak_{version}_amd64.AppImage.tar.gz"
+  },
   "zen-browser-bin": {
     "url": "https://github.com/zen-browser/desktop/releases/download/1.0.1-a.8/zen.linux-specific.tar.bz2",
     "sha256": "0pxwfxvvf3rp5cnil47578dgpyb0a42nnjpb7v3ylddfdlvr2msm",
