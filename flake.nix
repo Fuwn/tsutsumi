@@ -20,7 +20,7 @@
       rui,
       self,
       ...
-    }@inputs:
+    }:
     flake-utils.lib.eachDefaultSystem (
       system:
       let
@@ -44,6 +44,23 @@
         };
 
         yae = builtins.fromJSON (builtins.readFile "${self}/yae.json");
+
+        yaePackage =
+          name:
+          let
+            archive = pkgs.fetchzip {
+              inherit (yae.${name}) url sha256;
+            };
+          in
+          ((import "${archive}/flake.nix").outputs {
+            inherit
+              flake-utils
+              nixpkgs
+              pre-commit-hooks
+              ;
+
+            self = archive;
+          }).packages.${system}.default;
       in
       {
         packages = {
@@ -68,7 +85,7 @@
           swaddle = pkgs.callPackage ./pkgs/swaddle.nix { };
           t = pkgs.callPackage ./pkgs/t.nix { };
           thorium = pkgs.callPackage ./pkgs/thorium.nix { inherit yae; };
-          yae = inputs.yae.packages.${system}.default;
+          yae = yaePackage "yae";
           yaak = pkgs.callPackage ./pkgs/yaak.nix { inherit yae; };
           zen-browser-bin = pkgs.callPackage ./pkgs/zen-browser-bin.nix { inherit pkgs self yae; };
 

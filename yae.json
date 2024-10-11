@@ -19,6 +19,15 @@
     "trim_tag_prefix": "v",
     "pinned": true
   },
+  "yae": {
+    "url": "https://github.com/Fuwn/yae/archive/main.tar.gz",
+    "sha256": "0l4rlkig4hsl7xwvvv22s5q9aq4ghmhjzxrzmwxblw0qpdw6nqv3",
+    "unpack": true,
+    "type": "git",
+    "version": "main",
+    "url_template": "https://github.com/Fuwn/yae/archive/{version}.tar.gz",
+    "force": true
+  },
   "zen-browser-bin": {
     "url": "https://github.com/zen-browser/desktop/releases/download/1.0.1-a.8/zen.linux-specific.tar.bz2",
     "sha256": "0pxwfxvvf3rp5cnil47578dgpyb0a42nnjpb7v3ylddfdlvr2msm",
