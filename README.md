@@ -46,7 +46,7 @@ running `nix run github:Fuwn/tsutsumi#rui`. (or any other package in place of
   people that want to finish tasks, not organize them
 - [Thorium](https://thorium.rocks/) (`thorium`) - Fast and secure browser that
   uses modern CPU flags and LLVM optimizations
-- [Wiene](https://github.com/Fuwn/wiene) (`wiene`) - Nix Dependency Manager
+- [Yae](https://github.com/Fuwn/yae) (`yae`) - Nix Dependency Manager
 - [Yaak](https://yaak.app/) (`yaak`) - API client for modern developers
 - [Zen Browser](https://zen-browser.app/) (`zen-browser-bin`) - Firefox based
   browser with a focus on privacy and customisation (alpha release)

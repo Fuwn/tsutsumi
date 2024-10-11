@@ -19,7 +19,7 @@
       pre-commit-hooks,
       rui,
       self,
-      wiene,
+      yae,
       ...
     }:
     flake-utils.lib.eachDefaultSystem (
@@ -67,7 +67,7 @@
           swaddle = pkgs.callPackage ./pkgs/swaddle.nix { };
           t = pkgs.callPackage ./pkgs/t.nix { };
           thorium = pkgs.callPackage ./pkgs/thorium.nix { };
-          wiene = wiene.packages.${system}.default;
+          yae = yae.packages.${system}.default;
           yaak = pkgs.callPackage ./pkgs/yaak.nix { };
           zen-browser-bin = pkgs.callPackage ./pkgs/zen-browser-bin.nix { inherit pkgs self; };
 
@@ -162,8 +162,8 @@
       };
     };
 
-    wiene = {
-      url = "github:Fuwn/wiene";
+    yae = {
+      url = "github:Fuwn/yae";
 
       inputs = {
         flake-compat.follows = "flake-compat";
