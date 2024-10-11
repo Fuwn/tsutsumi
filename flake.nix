@@ -17,7 +17,6 @@
       mayu,
       nixpkgs,
       pre-commit-hooks,
-      rui,
       self,
       ...
     }:
@@ -80,7 +79,7 @@
           html2md = pkgs.callPackage ./pkgs/html2md.nix { };
           lilipod = pkgs.callPackage ./pkgs/lilipod.nix { };
           private-internet-access = pkgs.callPackage ./pkgs/private-internet-access.nix { };
-          rui = rui.packages.${system}.default;
+          rui = yaePackage "rui";
           suzuri = pkgs.callPackage ./pkgs/suzuri.nix { inherit (self.packages.${system}) html2md; };
           swaddle = pkgs.callPackage ./pkgs/swaddle.nix { };
           t = pkgs.callPackage ./pkgs/t.nix { };
@@ -138,18 +137,6 @@
       inputs = {
         flake-compat.follows = "flake-compat";
         nixpkgs.follows = "nixpkgs";
-      };
-    };
-
-    rui = {
-      url = "github:Fuwn/rui";
-
-      inputs = {
-        flake-compat.follows = "flake-compat";
-        flake-utils.follows = "flake-utils";
-        nixpkgs.follows = "nixpkgs";
-        pre-commit-hooks.follows = "pre-commit-hooks";
-        systems.follows = "systems";
       };
     };
 

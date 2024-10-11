@@ -1,4 +1,13 @@
 {
+  "rui": {
+    "url": "https://github.com/Fuwn/rui/archive/main.tar.gz",
+    "sha256": "1x4mznk1wjhgcaxk7yl3d9iim896gpcj6h8phnc2z4nz3wrsbj4m",
+    "unpack": true,
+    "type": "git",
+    "version": "main",
+    "url_template": "https://github.com/Fuwn/rui/archive/{version}.tar.gz",
+    "force": true
+  },
   "thorium": {
     "url": "https://github.com/Alex313031/thorium/releases/download/M126.0.6478.246/Thorium_Browser_126.0.6478.246_Th24_SSE4.AppImage",
     "sha256": "1l4wm60wir6qxhz9ll15fn9jjymqkasdfz88gixyj0wjz73indlb",

@@ -238,40 +238,7 @@
         "mayu": "mayu",
         "nixpkgs": "nixpkgs",
         "pre-commit-hooks": "pre-commit-hooks",
-        "rui": "rui",
         "systems": "systems"
-      }
-    },
-    "rui": {
-      "inputs": {
-        "flake-compat": [
-          "flake-compat"
-        ],
-        "flake-utils": [
-          "flake-utils"
-        ],
-        "nixpkgs": [
-          "nixpkgs"
-        ],
-        "pre-commit-hooks": [
-          "pre-commit-hooks"
-        ],
-        "systems": [
-          "systems"
-        ]
-      },
-      "locked": {
-        "lastModified": 1728062227,
-        "narHash": "sha256-lcilMx/fki+YhRdBI9l9JqEaY2qD+jO7Yg9KHqb9lfQ=",
-        "owner": "Fuwn",
-        "repo": "rui",
-        "rev": "34a9c134820d83816d4997f98dd18b36a65f2966",
-        "type": "github"
-      },
-      "original": {
-        "owner": "Fuwn",
-        "repo": "rui",
-        "type": "github"
       }
     },
     "systems": {
