@@ -1,4 +1,22 @@
 {
+  "maple": {
+    "url": "https://github.com/gemrest/maple/archive/main.tar.gz",
+    "sha256": "12j2x7fckr81kpw93ajkmbv5wwdw989wcadq8lwzzzbv18nqh9ph",
+    "unpack": true,
+    "type": "git",
+    "version": "main",
+    "url_template": "https://github.com/gemrest/maple/archive/{version}.tar.gz",
+    "force": true
+  },
+  "mayu": {
+    "url": "https://github.com/Fuwn/mayu/archive/main.tar.gz",
+    "sha256": "0zzd2x1c1dgqbqczvlgsccgnaclfnsllwsfbzxskz7xf2qzyy6ra",
+    "unpack": true,
+    "type": "git",
+    "version": "main",
+    "url_template": "https://github.com/Fuwn/mayu/archive/{version}.tar.gz",
+    "force": true
+  },
   "rui": {
     "url": "https://github.com/Fuwn/rui/archive/main.tar.gz",
     "sha256": "1x4mznk1wjhgcaxk7yl3d9iim896gpcj6h8phnc2z4nz3wrsbj4m",

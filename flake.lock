@@ -65,7 +65,6 @@
     "gitignore": {
       "inputs": {
         "nixpkgs": [
-          "mayu",
           "nixpkgs"
         ]
       },
@@ -101,60 +100,6 @@
       "original": {
         "owner": "hercules-ci",
         "repo": "gitignore.nix",
-        "type": "github"
-      }
-    },
-    "maple": {
-      "inputs": {
-        "flake-compat": [
-          "flake-compat"
-        ],
-        "flake-utils": [
-          "flake-utils"
-        ],
-        "nixpkgs": [
-          "nixpkgs"
-        ],
-        "systems": [
-          "systems"
-        ]
-      },
-      "locked": {
-        "lastModified": 1727666938,
-        "narHash": "sha256-8CaILQp7/f85RbgpxhNKvHFe9qpTqpH4nQHlydzpQoo=",
-        "owner": "gemrest",
-        "repo": "maple",
-        "rev": "53eafff719d9c026cd04c62a0e31a913c66cdaf5",
-        "type": "github"
-      },
-      "original": {
-        "owner": "gemrest",
-        "repo": "maple",
-        "type": "github"
-      }
-    },
-    "mayu": {
-      "inputs": {
-        "flake-utils": [
-          "flake-utils"
-        ],
-        "gitignore": "gitignore",
-        "nix-gleam": "nix-gleam",
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1727526176,
-        "narHash": "sha256-InhLv5wgA2ICcot3LgORLm7mxQYfyxR9PEB5aO35ov0=",
-        "owner": "Fuwn",
-        "repo": "mayu",
-        "rev": "f00ee62bdf66f482c803b2679bbd04dad1bfd1a3",
-        "type": "github"
-      },
-      "original": {
-        "owner": "Fuwn",
-        "repo": "mayu",
         "type": "github"
       }
     },
@@ -234,8 +179,8 @@
         "flake-compat": "flake-compat",
         "flake-utils": "flake-utils",
         "gigi": "gigi",
-        "maple": "maple",
-        "mayu": "mayu",
+        "gitignore": "gitignore",
+        "nix-gleam": "nix-gleam",
         "nixpkgs": "nixpkgs",
         "pre-commit-hooks": "pre-commit-hooks",
         "systems": "systems"

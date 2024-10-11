@@ -13,8 +13,8 @@
     {
       flake-utils,
       gigi,
-      maple,
-      mayu,
+      gitignore,
+      nix-gleam,
       nixpkgs,
       pre-commit-hooks,
       self,
@@ -54,6 +54,8 @@
           ((import "${archive}/flake.nix").outputs {
             inherit
               flake-utils
+              gitignore
+              nix-gleam
               nixpkgs
               pre-commit-hooks
               ;
@@ -74,8 +76,8 @@
           code-stats-ls = pkgs.callPackage ./pkgs/code-stats-ls.nix { };
           gigi = gigi.packages.${system}.default;
           git-sumi = pkgs.callPackage ./pkgs/git-sumi.nix { };
-          maple = maple.packages.${system}.default;
-          mayu = mayu.packages.${system}.default;
+          maple = yaePackage "maple";
+          mayu = yaePackage "mayu";
           html2md = pkgs.callPackage ./pkgs/html2md.nix { };
           lilipod = pkgs.callPackage ./pkgs/lilipod.nix { };
           private-internet-access = pkgs.callPackage ./pkgs/private-internet-access.nix { };
@@ -118,6 +120,7 @@
     );
 
   inputs = {
+    nix-gleam.url = "github:arnarg/nix-gleam";
     nixpkgs.url = "github:NixOS/nixpkgs";
     systems.url = "github:nix-systems/default";
 
@@ -131,15 +134,6 @@
       inputs.systems.follows = "systems";
     };
 
-    pre-commit-hooks = {
-      url = "github:cachix/git-hooks.nix";
-
-      inputs = {
-        flake-compat.follows = "flake-compat";
-        nixpkgs.follows = "nixpkgs";
-      };
-    };
-
     gigi = {
       url = "github:Fuwn/gigi";
 
@@ -150,22 +144,16 @@
       };
     };
 
-    maple = {
-      url = "github:gemrest/maple";
+    gitignore = {
+      url = "github:hercules-ci/gitignore.nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
+    pre-commit-hooks = {
+      url = "github:cachix/git-hooks.nix";
 
       inputs = {
         flake-compat.follows = "flake-compat";
-        flake-utils.follows = "flake-utils";
-        nixpkgs.follows = "nixpkgs";
-        systems.follows = "systems";
-      };
-    };
-
-    mayu = {
-      url = "github:Fuwn/mayu";
-
-      inputs = {
-        flake-utils.follows = "flake-utils";
         nixpkgs.follows = "nixpkgs";
       };
     };
