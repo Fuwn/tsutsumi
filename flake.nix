@@ -179,17 +179,5 @@
         nixpkgs.follows = "nixpkgs";
       };
     };
-
-    yae = {
-      url = "github:Fuwn/yae";
-
-      inputs = {
-        flake-compat.follows = "flake-compat";
-        flake-utils.follows = "flake-utils";
-        nixpkgs.follows = "nixpkgs";
-        pre-commit-hooks.follows = "pre-commit-hooks";
-        systems.follows = "systems";
-      };
-    };
   };
 }

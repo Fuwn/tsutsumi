@@ -240,7 +240,7 @@
         "pre-commit-hooks": "pre-commit-hooks",
         "rui": "rui",
         "systems": "systems",
-        "yae": "yae"
+        "yae2": "yae2"
       }
     },
     "rui": {
@@ -290,7 +290,7 @@
         "type": "github"
       }
     },
-    "yae": {
+    "yae2": {
       "inputs": {
         "flake-compat": [
           "flake-compat"
@@ -309,11 +309,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1728653565,
-        "narHash": "sha256-wAeRYJC3efrhX7JvMHN6gSGCed9FNtSfdiG/osfc39g=",
+        "lastModified": 1728684440,
+        "narHash": "sha256-Nl/ryx+RjEZiSKR3l7/qrYfHqi3NEA/qgGBYQUZ0WhU=",
         "owner": "Fuwn",
         "repo": "yae",
-        "rev": "6da4d60909b11e6b08a355c80883c40384c51bc0",
+        "rev": "2a4f2ad8756a75906d980a0fc7fbbb478ddd36ff",
         "type": "github"
       },
       "original": {
