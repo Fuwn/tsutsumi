@@ -309,11 +309,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1728619715,
-        "narHash": "sha256-z+fLlgux+ej4F8IS6gAtbSmYOyf4EKqTWUraHWgtFSU=",
+        "lastModified": 1728620399,
+        "narHash": "sha256-oCfChgeC9AfVe+4QS77nnyyLAB84L+Dzfwq4eSzR2TA=",
         "owner": "Fuwn",
         "repo": "yae",
-        "rev": "89a073b2e7590c2816c313567cf0ad4781e0ae0d",
+        "rev": "b41e33295436fe7ed6968b131d6e5c1a51e4fc50",
         "type": "github"
       },
       "original": {
