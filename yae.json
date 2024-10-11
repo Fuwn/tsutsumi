@@ -10,11 +10,11 @@
     "pinned": true
   },
   "yaak": {
-    "url": "https://github.com/yaakapp/app/releases/download/v2024.10.1/yaak_2024.10.1_amd64.AppImage.tar.gz",
-    "sha256": "0aqi52w8cb025zmfi6xlwz6mxzwmy3m8mnfbh2z2h6mvdjlqlxsy",
+    "url": "https://github.com/yaakapp/app/releases/download/v2024.6.6/yaak_2024.6.6_amd64.AppImage.tar.gz",
+    "sha256": "17svcjxrba9gai9fkq2ada515c26k0b1cz0hwaxf5liyrgg85x4v",
     "unpack": false,
     "type": "git",
-    "version": "2024.10.1",
+    "version": "2024.6.6",
     "uri_template": "https://github.com/yaakapp/app/releases/download/v{version}/yaak_{version}_amd64.AppImage.tar.gz",
     "trim_tag_prefix": "v",
     "pinned": true
