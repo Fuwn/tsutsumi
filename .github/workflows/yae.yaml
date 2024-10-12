@@ -15,7 +15,7 @@ jobs:
         run: nix --accept-flake-config profile install "github:Fuwn/yae"
       - name: Yae Update
         id: yae_update
-        run: yae update --show-updated-only-formatted | tee yae_update_output.txt
+        run: yae --silent update --output-formatted-updated-list | tee yae_update_output.txt
       - name: Commit and Push Changes
         run: |-
           git config --global user.name 'github-actions[bot]'
