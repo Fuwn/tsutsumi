@@ -15,7 +15,8 @@
     "type": "git",
     "version": "main",
     "url_template": "https://github.com/Fuwn/mayu/archive/{version}.tar.gz",
-    "force": true
+    "force": true,
+    "tag_predicate": "main"
   },
   "rui": {
     "url": "https://github.com/Fuwn/rui/archive/main.tar.gz",
