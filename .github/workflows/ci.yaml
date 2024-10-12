@@ -2,10 +2,12 @@
 name: CI
 on:
   push:
+    paths: [yae.json, '**/*.nix', '*.lock']
   pull_request:
+    paths: [yae.json, '**/*.nix', '*.lock']
   workflow_dispatch:
   workflow_run:
-    workflows: ["Yae Update"]
+    workflows: [Yae Update]
     types: [completed]
 jobs:
   ci:
@@ -13,6 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: DeterminateSystems/nix-installer-action@main
+      - uses: DeterminateSystems/magic-nix-cache-action@main
       - uses: cachix/cachix-action@v14
         if: github.ref == 'refs/heads/main'
         with:
