@@ -4,5 +4,6 @@
   yae,
 }:
 import "${self}/lib/zen-browser-bin.nix" {
-  inherit (yae.zen-browser-bin) sha256 version;
+  name = "zen-browser-bin";
+  source = yae.zen-browser-bin;
 } { inherit pkgs; }
