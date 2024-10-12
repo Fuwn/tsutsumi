@@ -49,7 +49,7 @@
   },
   "yae": {
     "url": "https://github.com/Fuwn/yae/archive/main.tar.gz",
-    "sha256": "0g7xgfk3j7q14iq4ld4kllarm0a89mix54ddcvcpcr01m3xxcfjn",
+    "sha256": "0903kia3m7x31d74rbajawavjrjm6bp3slqr49j41nnnmg4wfcaq",
     "unpack": true,
     "type": "git",
     "version": "main",
