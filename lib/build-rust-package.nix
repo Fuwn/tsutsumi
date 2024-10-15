@@ -8,12 +8,15 @@
   version,
   githubOwner,
   githubHash,
-  cargoHash,
+  cargoHash ? null,
   description ? null,
   license,
   maintainers ? null,
   buildInputs ? [ ],
   nativeBuildInputs ? [ ],
+  cargoLock ? null,
+  postPatch ? null,
+  cargoPatches ? [ ],
 }:
 rustPlatform.buildRustPackage rec {
   inherit
@@ -22,6 +25,9 @@ rustPlatform.buildRustPackage rec {
     buildInputs
     nativeBuildInputs
     cargoHash
+    cargoLock
+    postPatch
+    cargoPatches
     ;
 
   src = fetchFromGitHub {

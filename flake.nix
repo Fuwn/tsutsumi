@@ -72,7 +72,7 @@
           ahoviewer = pkgs.callPackage ./pkgs/t.nix { };
           bindtointerface = pkgs.callPackage ./pkgs/bindtointerface.nix { };
           cargo-clean-all = pkgs.callPackage ./pkgs/cargo-clean-all.nix { };
-          chan-downloader = pkgs.callPackage ./pkgs/chan-downloader.nix { };
+          chan-downloader = pkgs.callPackage ./pkgs/chan-downloader { };
           code-stats-ls = pkgs.callPackage ./pkgs/code-stats-ls.nix { };
           gigi = gigi.packages.${system}.default;
           git-sumi = pkgs.callPackage ./pkgs/git-sumi.nix { };
