@@ -49,7 +49,7 @@
   },
   "yae": {
     "url": "https://github.com/Fuwn/yae/archive/main.tar.gz",
-    "sha256": "12dn9qk546xckvzpbkh2wka8hill6mswxvl4283myqlhc2kl80h8",
+    "sha256": "0xpxahz1f7kwf2clmy6yvzqnx31vs84qvmyp6zld45a48fd87amx",
     "unpack": true,
     "type": "git",
     "version": "main",
@@ -67,7 +67,7 @@
   },
   "zen-browser-twilight-bin": {
     "url": "https://github.com/zen-browser/desktop/releases/download/twilight/zen.linux-specific.tar.bz2",
-    "sha256": "1vshshaqfx6k2isipgfngmnk4s4nclxg2hdk8i891adx4ljk0029",
+    "sha256": "1n6v146vg216mp4i4kr6w0is6777f1biy8aygasm6n9zfyjy3kxz",
     "unpack": true,
     "type": "binary",
     "version": "twilight",
