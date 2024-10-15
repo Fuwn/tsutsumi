@@ -23,7 +23,7 @@ running `nix run github:Fuwn/tsutsumi#rui`. (or any other package in place of
   interface/network adapter
 - [cargo-clean-all](https://github.com/dnlmlr/cargo-clean-all) - Recursively
   clean all Cargo projects in a given directory that match the specified criteria
-- [chan-downloader](https://github.com/nixports/chan-downloader) - CLI to
+- [chan-downloader](https://github.com/mariot/chan-downloader) - CLI to
   download all images/webms in a 4chan thread
 - [code-stats-ls](https://github.com/maxdeviant/code-stats-ls) - Language
   server for Code::Stats
