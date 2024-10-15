@@ -22,4 +22,5 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
           git diff-index --quiet HEAD || git commit -m "feat(packages): yae says bump $(cat yae_update_output.txt | tr -d '\n')"
+          git pull
           git push
