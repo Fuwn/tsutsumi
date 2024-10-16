@@ -5,7 +5,8 @@
     "unpack": true,
     "type": "git",
     "version": "master",
-    "url_template": "https://github.com/ahodesuka/ahoviewer/archive/{version}.tar.gz"
+    "url_template": "https://github.com/ahodesuka/ahoviewer/archive/{version}.tar.gz",
+    "tag_predicate": "master"
   },
   "maple": {
     "url": "https://github.com/gemrest/maple/archive/main.tar.gz",
