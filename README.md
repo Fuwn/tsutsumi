@@ -41,7 +41,7 @@ running `nix run github:Fuwn/tsutsumi#rui`. (or any other package in place of
 - [`suzuri`](https://github.com/Fuwn/suzuri) - Command-line interface to [sumi.news](https://sumi.news)
 - [swaddle](https://github.com/ATTron/swaddle) - `swayidle` inhibitor when
   watching content or listening to audio
-- [t](https://github.com/nixports/t) - Command-line TODO list manager for
+- [t](https://github.com/juev/t) - Command-line TODO list manager for
   people that want to finish tasks, not organize them
 - [Thorium](https://thorium.rocks/) (`thorium`) - Fast and secure browser that
   uses modern CPU flags and LLVM optimizations
