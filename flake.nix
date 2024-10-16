@@ -69,7 +69,7 @@
           cynic-cli = pkgs.callPackage ./pkgs/cynic-cli { };
           peerflix = pkgs.callPackage ./pkgs/peerflix { };
           wakatime-ls = pkgs.callPackage ./pkgs/wakatime-ls { };
-          ahoviewer = pkgs.callPackage ./pkgs/ahoviewer.nix { };
+          ahoviewer = pkgs.callPackage ./pkgs/ahoviewer.nix { source = yae.ahoviewer; };
           bindtointerface = pkgs.callPackage ./pkgs/bindtointerface.nix { };
           cargo-clean-all = pkgs.callPackage ./pkgs/cargo-clean-all.nix { };
           chan-downloader = pkgs.callPackage ./pkgs/chan-downloader { };

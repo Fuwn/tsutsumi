@@ -1,13 +1,11 @@
-{ pkgs }:
-pkgs.stdenv.mkDerivation rec {
-  pname = "ahoviewer";
-  version = "42e16f94b78496e3e346f0d127baa569039a6757";
+{ pkgs, source }:
+pkgs.stdenv.mkDerivation {
+  inherit (source) version;
 
-  src = pkgs.fetchFromGitHub {
-    owner = "ahodesuka";
-    repo = pname;
-    rev = "42e16f94b78496e3e346f0d127baa569039a6757";
-    sha256 = "sha256-HcijKiExwyBoWDvMlJ5AMA0U7BtS9EfcA54nfQ/iGvE=";
+  pname = "ahoviewer";
+
+  src = pkgs.fetchzip {
+    inherit (source) url sha256;
   };
 
   buildInputs = with pkgs; [
