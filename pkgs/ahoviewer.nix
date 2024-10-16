@@ -21,9 +21,17 @@ pkgs.stdenv.mkDerivation {
     libpeas
     libsecret
     libzip
+    gobject-introspection
+    (gst_all_1.gst-plugins-good.override { gtkSupport = true; })
+    gst_all_1.gst-plugins-bad
+    gst_all_1.gst-plugins-ugly
+    gst_all_1.gst-libav
   ];
 
-  nativeBuildInputs = [ pkgs.pkg-config ];
+  nativeBuildInputs = with pkgs; [
+    pkg-config
+    wrapGAppsHook4
+  ];
 
   configurePhase = "meson setup build --buildtype=release";
 
