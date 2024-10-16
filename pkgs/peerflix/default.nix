@@ -1,13 +1,15 @@
-{ buildNpmPackage, fetchFromGitHub }:
-buildNpmPackage rec {
-  pname = "peerflix";
-  version = "0.39.0";
+{
+  buildNpmPackage,
+  fetchzip,
+  source,
+}:
+buildNpmPackage {
+  inherit (source) version;
 
-  src = fetchFromGitHub {
-    owner = "mafintosh";
-    repo = "peerflix";
-    rev = "v${version}";
-    hash = "sha256-0gytFg1CvTRqJc/9CscyUqmU2yAtblVPLfwmqPzUQEQ=";
+  pname = "peerflix";
+
+  src = fetchzip {
+    inherit (source) url sha256;
   };
 
   npmDepsHash = "sha256-23A6NUmZsNhW3CPiE1xRC43t1AVYQZ5SgDmcxQ6cHrE=";

@@ -26,6 +26,16 @@
     "tag_predicate": "main",
     "force": true
   },
+  "peerflix": {
+    "url": "https://github.com/mafintosh/peerflix/archive/v0.39.0.tar.gz",
+    "sha256": "0i20skyah9pw5m7mavid43dr9aaj6b3hmzfg4mm39ga21lbas36j",
+    "unpack": true,
+    "type": "git",
+    "version": "0.39.0",
+    "url_template": "https://github.com/mafintosh/peerflix/archive/v{version}.tar.gz",
+    "trim_tag_prefix": "v",
+    "pinned": true
+  },
   "rui": {
     "url": "https://github.com/Fuwn/rui/archive/main.tar.gz",
     "sha256": "1k36bw9p69cl71pf3cy3xm2rn1gy7d0xd13bfwnrr4zns654d56i",

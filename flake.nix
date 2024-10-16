@@ -67,7 +67,7 @@
         packages = {
           bollux = pkgs.callPackage ./pkgs/bollux { };
           cynic-cli = pkgs.callPackage ./pkgs/cynic-cli { };
-          peerflix = pkgs.callPackage ./pkgs/peerflix { };
+          peerflix = pkgs.callPackage ./pkgs/peerflix { source = yae.peerflix; };
           wakatime-ls = pkgs.callPackage ./pkgs/wakatime-ls { };
           ahoviewer = pkgs.callPackage ./pkgs/ahoviewer.nix { source = yae.ahoviewer; };
           bindtointerface = pkgs.callPackage ./pkgs/bindtointerface.nix { };
