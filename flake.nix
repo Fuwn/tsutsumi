@@ -84,7 +84,7 @@
           rui = yaePackage "rui";
           suzuri = pkgs.callPackage ./pkgs/suzuri.nix { inherit (self.packages.${system}) html2md; };
           swaddle = pkgs.callPackage ./pkgs/swaddle.nix { };
-          t = pkgs.callPackage ./pkgs/t.nix { };
+          t = pkgs.callPackage ./pkgs/t { };
           thorium = pkgs.callPackage ./pkgs/thorium.nix { inherit yae; };
           yae = yaePackage "yae";
           yaak = pkgs.callPackage ./pkgs/yaak.nix { inherit yae; };
