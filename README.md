@@ -8,37 +8,36 @@ running `nix run github:Fuwn/tsutsumi#rui`. (or any other package in place of
 
 ## Applications
 
-- [bollux](https://tildegit.org/acdw/bollux) - Command-line Gemini browser
-  written in Bash
-- [cynic-cli](https://github.com/obmarg/cynic/tree/main/cynic-cli) - CLI for
-  Cynic, the code first GraphQL client for Rust
-- [peerflix](https://github.com/mafintosh/peerflix) - Command-line streaming
-  BitTorrent client
-- [wakatime-ls](https://github.com/wakatime/zed-wakatime/tree/master/wakatime-ls)
-  \- Language server for [Wakatime](https://wakatime.com/)
+- [Maple](https://github.com/gemrest/maple) - Static Gemini server with Titan support
+- [Mayu](https://github.com/Fuwn/mayu) - Moe-Counter compatible website hit
+  counter written in Gleam
+- [Rui](https://github.com/Fuwn/rui/) (`rui`) - Personal NixOS flake manager
+- [Yae](https://github.com/Fuwn/yae) (`yae`) - Nix Dependency Manager
 - [ahoviewer](https://github.com/ahodesuka/ahoviewer) - GTK image viewer,
   manga reader, and booru browser
 - [BindToInterface](https://github.com/JsBergbau/BindToInterface)
   (`bindtointerface`) - Bind applications to a specific network
   interface/network adapter
+- [bollux](https://tildegit.org/acdw/bollux) - Command-line Gemini browser
+  written in Bash
 - [cargo-clean-all](https://github.com/dnlmlr/cargo-clean-all) - Recursively
   clean all Cargo projects in a given directory that match the specified criteria
 - [chan-downloader](https://github.com/mariot/chan-downloader) - CLI to
   download all images/webms in a 4chan thread
 - [code-stats-ls](https://github.com/maxdeviant/code-stats-ls) - Language
   server for Code::Stats
-- [gigi](https://github.com/Fuwn/gigi/) - Finger protocol server
+- [cynic-cli](https://github.com/obmarg/cynic/tree/main/cynic-cli) - CLI for
+  Cynic, the code first GraphQL client for Rust
 - [git-sumi](https://github.com/welpo/git-sumi) - Non-opinionated Rust-based
   commit message linter
-- [Maple](https://github.com/gemrest/maple) - Static Gemini server with Titan support
-- [Mayu](https://github.com/Fuwn/mayu) - Moe-Counter compatible website hit
-  counter written in Gleam
+- [gigi](https://github.com/Fuwn/gigi/) - Finger protocol server
 - [html2md](https://github.com/suntong/html2md) - Command-line HTML to Markdown converter
 - [Lilipod](https://github.com/89luca89/lilipod) - Simple container manager
+- [peerflix](https://github.com/mafintosh/peerflix) - Command-line streaming
+  BitTorrent client
 - [Private Internet Access](https://www.privateinternetaccess.com/)
   (`private-internet-access`) - Private Internet Access VPN binaries and
   configuration files
-- [Rui](https://github.com/Fuwn/rui/) (`rui`) - Personal NixOS flake manager
 - [`suzuri`](https://github.com/Fuwn/suzuri) - Command-line interface to [sumi.news](https://sumi.news)
 - [swaddle](https://github.com/ATTron/swaddle) - `swayidle` inhibitor when
   watching content or listening to audio
@@ -46,7 +45,8 @@ running `nix run github:Fuwn/tsutsumi#rui`. (or any other package in place of
   people that want to finish tasks, not organize them
 - [Thorium](https://thorium.rocks/) (`thorium`) - Fast and secure browser that
   uses modern CPU flags and LLVM optimizations
-- [Yae](https://github.com/Fuwn/yae) (`yae`) - Nix Dependency Manager
+- [wakatime-ls](https://github.com/wakatime/zed-wakatime/tree/master/wakatime-ls)
+  \- Language server for [Wakatime](https://wakatime.com/)
 - [Yaak](https://yaak.app/) (`yaak`) - API client for modern developers
 - [Zen Browser](https://zen-browser.app/) (`zen-browser-bin`) - Firefox based
   browser with a focus on privacy and customisation (alpha release)
