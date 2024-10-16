@@ -7,3 +7,5 @@ build package:
 run package:
   NIXPKGS_ALLOW_UNFREE=1 nix run .#{{package}} --impure
 
+sort-packages:
+  ls -la pkgs/ | awk '{sub(/\.nix$/, "", $9); print $9}' | sort
