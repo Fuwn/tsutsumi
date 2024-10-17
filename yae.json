@@ -37,6 +37,14 @@
     "trim_tag_prefix": "v",
     "pinned": true
   },
+  "ripper": {
+    "url": "https://github.com/Fuwn/reddit-thread-ripper/archive/master.tar.gz",
+    "sha256": "09sc14917nhyix81y1znbrzvn21sgasn5la4giab0s7r2vpa17fs",
+    "unpack": true,
+    "type": "git",
+    "version": "master",
+    "url_template": "https://github.com/Fuwn/reddit-thread-ripper/archive/{version}.tar.gz"
+  },
   "rui": {
     "url": "https://github.com/Fuwn/rui/archive/main.tar.gz",
     "sha256": "1k36bw9p69cl71pf3cy3xm2rn1gy7d0xd13bfwnrr4zns654d56i",

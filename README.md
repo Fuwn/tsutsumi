@@ -35,9 +35,14 @@ running `nix run github:Fuwn/tsutsumi#rui`. (or any other package in place of
 - [Lilipod](https://github.com/89luca89/lilipod) - Simple container manager
 - [peerflix](https://github.com/mafintosh/peerflix) - Command-line streaming
   BitTorrent client
+- [`parse-ripper-output`](github.com/saucecode/reddit-thread-ripper) - Sister
+  program to `reddit-thread-ripper` that parses the output of the latter into
+  an HTML document
 - [Private Internet Access](https://www.privateinternetaccess.com/)
   (`private-internet-access`) - Private Internet Access VPN binaries and
   configuration files
+- [reddit-thread-ripper](github.com/saucecode/reddit-thread-ripper) - a Python
+  program/library to download an entire reddit thread's comment section
 - [`suzuri`](https://github.com/Fuwn/suzuri) - Command-line interface to [sumi.news](https://sumi.news)
 - [swaddle](https://github.com/ATTron/swaddle) - `swayidle` inhibitor when
   watching content or listening to audio

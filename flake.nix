@@ -80,8 +80,10 @@
           mayu = yaePackage "mayu";
           html2md = pkgs.callPackage ./pkgs/html2md.nix { };
           lilipod = pkgs.callPackage ./pkgs/lilipod.nix { };
+          parse-ripper-output = pkgs.callPackage ./pkgs/parse-ripper-output.nix { source = yae.ripper; };
           private-internet-access = pkgs.callPackage ./pkgs/private-internet-access.nix { };
           rui = yaePackage "rui";
+          ripper = pkgs.callPackage ./pkgs/ripper.nix { source = yae.ripper; };
           suzuri = pkgs.callPackage ./pkgs/suzuri.nix { inherit (self.packages.${system}) html2md; };
           swaddle = pkgs.callPackage ./pkgs/swaddle.nix { };
           t = pkgs.callPackage ./pkgs/t { };
