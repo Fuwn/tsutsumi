@@ -76,7 +76,7 @@
   },
   "yae": {
     "url": "https://github.com/Fuwn/yae/archive/main.tar.gz",
-    "sha256": "0y6wd071g9rkxj4yvxs7g49ygg6dpwqahz6glbxljyh92160ij9a",
+    "sha256": "0d8l64l65xgzyjf4pms7kdsqya03lqqj84gdaw4c3y1nz0dgkl9r",
     "unpack": true,
     "type": "git",
     "version": "main",
@@ -84,11 +84,11 @@
     "force": true
   },
   "zen-browser-bin": {
-    "url": "https://github.com/zen-browser/desktop/releases/download/1.0.1-a.10/zen.linux-specific.tar.bz2",
-    "sha256": "1iwqfz9hmkmg0b57w8928hfmav1lyxq29dfp0q029m2cb40ypmk4",
+    "url": "https://github.com/zen-browser/desktop/releases/download/1.0.1-a.11/zen.linux-specific.tar.bz2",
+    "sha256": "159sx5zqckm25zkw9yi53v8n4ml9y8kndxmy4426rrg16g5a0s4r",
     "unpack": true,
     "type": "git",
-    "version": "1.0.1-a.10",
+    "version": "1.0.1-a.11",
     "url_template": "https://github.com/zen-browser/desktop/releases/download/{version}/zen.linux-specific.tar.bz2",
     "tag_predicate": "1.0"
   },
