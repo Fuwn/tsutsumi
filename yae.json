@@ -95,7 +95,7 @@
   },
   "zen-browser-twilight-bin": {
     "url": "https://github.com/zen-browser/desktop/releases/download/twilight/zen.linux-specific.tar.bz2",
-    "sha256": "0q3n77f7azhs1fka6khv32rdb7g473pk2xbpcafbakp583s3mvyh",
+    "sha256": "0c8j8bng7fcqmndd1cgqn47q7gra28j2zb3zylnffxzfb36kv0m8",
     "unpack": true,
     "type": "binary",
     "version": "twilight",
