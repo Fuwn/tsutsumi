@@ -85,17 +85,17 @@
     "force": true
   },
   "zen-browser-bin": {
-    "url": "https://github.com/zen-browser/desktop/releases/download/1.0.1-a.17/zen.linux-specific.tar.bz2",
-    "sha256": "0ahpig3kafphg0pnkl1r60b9phfp5s2rilpxb20q2fwz41d1miwi",
+    "url": "https://github.com/zen-browser/desktop/releases/download/1.0.1-a.18/zen.linux-specific.tar.bz2",
+    "sha256": "1n6z8wx8w7dhir8vaqbc19ibhsc6g6rma4kvx2nw04l8b4hxg9bg",
     "unpack": true,
     "type": "git",
-    "version": "1.0.1-a.17",
+    "version": "1.0.1-a.18",
     "url_template": "https://github.com/zen-browser/desktop/releases/download/{version}/zen.linux-specific.tar.bz2",
     "tag_predicate": "1.0"
   },
   "zen-browser-twilight-bin": {
     "url": "https://github.com/zen-browser/desktop/releases/download/twilight/zen.linux-specific.tar.bz2",
-    "sha256": "1d15jd02q6x8mp9yvl8lha0bl9s1ql4nyq7sy5w8p79vcyq41rn0",
+    "sha256": "1wkwxgv8bkb6pchf345z2cwxvhfd664xwd5wqbq34n21d7lqvclc",
     "unpack": true,
     "type": "binary",
     "version": "twilight",
