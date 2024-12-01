@@ -77,7 +77,7 @@
           gigi = gigi.packages.${system}.default;
           git-sumi = pkgs.callPackage ./pkgs/git-sumi.nix { };
           maple = yaePackage "maple";
-          mayu = yaePackage "mayu";
+          # mayu = yaePackage "mayu";
           html2md = pkgs.callPackage ./pkgs/html2md.nix { };
           lilipod = pkgs.callPackage ./pkgs/lilipod.nix { };
           parse-ripper-output = pkgs.callPackage ./pkgs/parse-ripper-output.nix { source = yae.ripper; };

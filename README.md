@@ -9,8 +9,6 @@ running `nix run github:Fuwn/tsutsumi#rui`. (or any other package in place of
 ## Applications
 
 - [Maple](https://github.com/gemrest/maple) - Static Gemini server with Titan support
-- [Mayu](https://github.com/Fuwn/mayu) - Moe-Counter compatible website hit
-  counter written in Gleam
 - [Rui](https://github.com/Fuwn/rui/) (`rui`) - Personal NixOS flake manager
 - [Yae](https://github.com/Fuwn/yae) (`yae`) - Nix Dependency Manager
 - [ahoviewer](https://github.com/ahodesuka/ahoviewer) - GTK image viewer,
