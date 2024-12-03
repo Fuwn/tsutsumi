@@ -3,6 +3,7 @@
   "ahoviewer": {
     "url": "https://github.com/ahodesuka/ahoviewer/archive/master.tar.gz",
     "sha256": "1n9pklj5i08wh4pk0i91lgysr229vsj1l7gp4pgx42ysnvddp147",
+    "hash": "sha256-h4Tb2rbaC9LfJfcdGqTeSYis/aMhRTAvgRyBWCSdN9k=",
     "unpack": true,
     "type": "git",
     "version": "master",
@@ -12,6 +13,7 @@
   "maple": {
     "url": "https://github.com/gemrest/maple/archive/main.tar.gz",
     "sha256": "12j2x7fckr81kpw93ajkmbv5wwdw989wcadq8lwzzzbv18nqh9ph",
+    "hash": "sha256-8CaILQp7/f85RbgpxhNKvHFe9qpTqpH4nQHlydzpQoo=",
     "unpack": true,
     "type": "git",
     "version": "main",
@@ -21,6 +23,7 @@
   "mayu": {
     "url": "https://github.com/Fuwn/mayu/archive/main.tar.gz",
     "sha256": "0zzd2x1c1dgqbqczvlgsccgnaclfnsllwsfbzxskz7xf2qzyy6ra",
+    "hash": "sha256-KhvvPxaunz91/8tpTqm2jjJlH2P60f0ZXvi1wEIX7X8=",
     "unpack": true,
     "type": "git",
     "version": "main",
@@ -31,6 +34,7 @@
   "peerflix": {
     "url": "https://github.com/mafintosh/peerflix/archive/v0.39.0.tar.gz",
     "sha256": "0i20skyah9pw5m7mavid43dr9aaj6b3hmzfg4mm39ga21lbas36j",
+    "hash": "sha256-0gytFg1CvTRqJc/9CscyUqmU2yAtblVPLfwmqPzUQEQ=",
     "unpack": true,
     "type": "git",
     "version": "0.39.0",
@@ -41,6 +45,7 @@
   "ripper": {
     "url": "https://github.com/Fuwn/reddit-thread-ripper/archive/master.tar.gz",
     "sha256": "09sc14917nhyix81y1znbrzvn21sgasn5la4giab0s7r2vpa17fs",
+    "hash": "sha256-2p2g7hb5aLBUfETRYrV6Ogi7f172Bx9Qjx7aExIJTCc=",
     "unpack": true,
     "type": "git",
     "version": "master",
@@ -49,6 +54,7 @@
   "rui": {
     "url": "https://github.com/Fuwn/rui/archive/main.tar.gz",
     "sha256": "1k36bw9p69cl71pf3cy3xm2rn1gy7d0xd13bfwnrr4zns654d56i",
+    "hash": "sha256-0ZRGitH2k5wtd2uE1kE7/gWbRe3Ds+FuOJQlcxNfZsw=",
     "unpack": true,
     "type": "git",
     "version": "main",
@@ -58,6 +64,7 @@
   "thorium": {
     "url": "https://github.com/Alex313031/thorium/releases/download/M126.0.6478.246/Thorium_Browser_126.0.6478.246_Th24_SSE4.AppImage",
     "sha256": "1l4wm60wir6qxhz9ll15fn9jjymqkasdfz88gixyj0wjz73indlb",
+    "hash": "sha256-izYbx/mSA+l7fAh917SauHopk3UlUJo+7NjkyIGpnNA=",
     "unpack": false,
     "type": "git",
     "version": "126.0.6478.246",
@@ -68,6 +75,7 @@
   "yaak": {
     "url": "https://github.com/yaakapp/app/releases/download/v2024.6.6/yaak_2024.6.6_amd64.AppImage.tar.gz",
     "sha256": "17svcjxrba9gai9fkq2ada515c26k0b1cz0hwaxf5liyrgg85x4v",
+    "hash": "sha256-m/SC3ss+0uK64hB8FhaYRrASimpK4OlSVC+plbtkW58=",
     "unpack": false,
     "type": "git",
     "version": "2024.6.6",
@@ -77,7 +85,8 @@
   },
   "yae": {
     "url": "https://github.com/Fuwn/yae/archive/main.tar.gz",
-    "sha256": "12c1zj7xgrncvhzfs12b8xa6r6zqz08khrkbabrpx3lndz1k3yh1",
+    "sha256": "0pyb3fczypdffkcy3apah5nbb0kbil4msd4jsk2rmqlrqi73r04i",
+    "hash": "sha256-kYA8TsSZ4prF1JI0XQmNa4K1bIHqquHZdK5d/5kby18=",
     "unpack": true,
     "type": "git",
     "version": "main",
@@ -87,6 +96,7 @@
   "zen-browser-bin": {
     "url": "https://github.com/zen-browser/desktop/releases/download/1.0.1-a.22/zen.linux-specific.tar.bz2",
     "sha256": "0anr79rdm62h5y37xa47rrrk32r9gnv04df4z7brc0hp4q83pxvi",
+    "hash": "sha256-cfc7ECYXApbX+cQ1ArZ9KYsxc86HqH6GL1CY2nI62So=",
     "unpack": true,
     "type": "git",
     "version": "1.0.1-a.22",
@@ -95,7 +105,8 @@
   },
   "zen-browser-twilight-bin": {
     "url": "https://github.com/zen-browser/desktop/releases/download/twilight/zen.linux-specific.tar.bz2",
-    "sha256": "03fx5pgqp3npcxl277556ydbjcn0b9i85gm9wjnddabakm4hw27z",
+    "sha256": "0psqng1jdh96sabgv6xvzhzrrl62dwb784wv7ijk7bp7darf6xca",
+    "hash": "sha256-inXjsmrnrjNlPJsTdBZvwtCcP/y7m/2W0ibBJsOzWF8=",
     "unpack": true,
     "type": "binary",
     "version": "twilight",
