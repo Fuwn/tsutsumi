@@ -4,7 +4,7 @@
   source,
 }:
 buildGo123Module rec {
-  pname = "chibi-cli";
+  pname = "chibi";
   version = source.version;
   vendorHash = "sha256-nSEGkn6fhr0++9uzh/+7JHUwbj879fhs0zV2/i1AEYU=";
   doCheck = false;
