@@ -22,8 +22,8 @@ running `nix run github:Fuwn/tsutsumi#rui`. (or any other package in place of
   clean all Cargo projects in a given directory that match the specified criteria
 - [chan-downloader](https://github.com/mariot/chan-downloader) - CLI to
   download all images/webms in a 4chan thread
-- [chibi-cli](https://github.com/CosmicPredator/chibi-cli) - Lightweight anime &
-  manga CLI for AniList
+- [chibi-cli](https://github.com/CosmicPredator/chibi-cli) (`chibi`) - Lightweight
+  anime & manga CLI for AniList
 - [code-stats-ls](https://github.com/maxdeviant/code-stats-ls) - Language
   server for Code::Stats
 - [cynic-cli](https://github.com/obmarg/cynic/tree/main/cynic-cli) - CLI for
