@@ -10,6 +10,17 @@
     "url_template": "https://github.com/ahodesuka/ahoviewer/archive/{version}.tar.gz",
     "tag_predicate": "master"
   },
+  "chibi-cli": {
+    "url": "https://github.com/CosmicPredator/chibi-cli/archive/1.0.1.tar.gz",
+    "sha256": "0mpg3wq3rf0rpi0cg547p813222gvm47jfxkqaabdjl7wqags9fs",
+    "hash": "sha256-2iX9FOaHyraUwrM7eUjdTwgxArqHlMdAvBm4PDAf71Y=",
+    "unpack": true,
+    "type": "git",
+    "version": "1.0.1",
+    "url_template": "https://github.com/CosmicPredator/chibi-cli/archive/{version}.tar.gz",
+    "tag_predicate": "1.",
+    "pinned": true
+  },
   "maple": {
     "url": "https://github.com/gemrest/maple/archive/main.tar.gz",
     "sha256": "12j2x7fckr81kpw93ajkmbv5wwdw989wcadq8lwzzzbv18nqh9ph",
