@@ -11,14 +11,13 @@ buildGo123Module rec {
 
   src = fetchFromGitHub {
     owner = "CosmicPredator";
-    repo = pname;
+    repo = "${pname}-cli";
     rev = source.version;
     hash = source.hash;
   };
 
   postPatch = ''
     sed -i '3s/1.23.4/1.23.3/' go.mod
-    cp ${./go.sum} ./go.sum
   '';
 
   ldflags = [

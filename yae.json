@@ -11,15 +11,14 @@
     "tag_predicate": "master"
   },
   "chibi-cli": {
-    "url": "https://github.com/CosmicPredator/chibi-cli/archive/1.0.1.tar.gz",
-    "sha256": "0mpg3wq3rf0rpi0cg547p813222gvm47jfxkqaabdjl7wqags9fs",
-    "hash": "sha256-2iX9FOaHyraUwrM7eUjdTwgxArqHlMdAvBm4PDAf71Y=",
+    "url": "https://github.com/CosmicPredator/chibi-cli/archive/1.0.2.tar.gz",
+    "sha256": "0dh0ifkc78ckk38jcw8yry2404v2i6njgi4p4dndizp50fp95pac",
+    "hash": "sha256-TN2SrgPl/thsI5fEJ62JYhNAhM8ecSbRmJOhw6aLADY=",
     "unpack": true,
     "type": "git",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "url_template": "https://github.com/CosmicPredator/chibi-cli/archive/{version}.tar.gz",
-    "tag_predicate": "1.",
-    "pinned": true
+    "tag_predicate": "1."
   },
   "maple": {
     "url": "https://github.com/gemrest/maple/archive/main.tar.gz",
