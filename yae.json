@@ -2,8 +2,8 @@
   "$schema": "https://raw.githubusercontent.com/Fuwn/yae/refs/heads/main/yae.schema.json",
   "ahoviewer": {
     "url": "https://github.com/ahodesuka/ahoviewer/archive/master.tar.gz",
-    "sha256": "1n9pklj5i08wh4pk0i91lgysr229vsj1l7gp4pgx42ysnvddp147",
-    "hash": "sha256-h4Tb2rbaC9LfJfcdGqTeSYis/aMhRTAvgRyBWCSdN9k=",
+    "sha256": "1yckqkym3bhxhwi3sida1qkr0v38p12y6658jnqiivgx8q3j1ddx",
+    "hash": "sha256-vbUgB0b97RixlagY40W4aGyQJw6qRT0ihx2uUf3Ek/k=",
     "unpack": true,
     "type": "git",
     "version": "master",
