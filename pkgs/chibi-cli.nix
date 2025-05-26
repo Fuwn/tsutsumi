@@ -6,7 +6,7 @@
 buildGo123Module rec {
   pname = "chibi";
   version = source.version;
-  vendorHash = "sha256-nSEGkn6fhr0++9uzh/+7JHUwbj879fhs0zV2/i1AEYU=";
+  vendorHash = "sha256-rcOsydbD+pTS7ZWPA99P8zwJvgO/7ro1KsNPPX3PluE=";
   doCheck = false;
 
   src = fetchFromGitHub {
