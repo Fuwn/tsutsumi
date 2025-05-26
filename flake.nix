@@ -93,9 +93,9 @@
           yaak = pkgs.callPackage ./pkgs/yaak.nix { inherit yae; };
           zen-browser-bin = pkgs.callPackage ./pkgs/zen-browser-bin.nix { inherit pkgs self yae; };
 
-          zen-browser-twilight-bin = pkgs.callPackage ./pkgs/zen-browser-twilight-bin.nix {
-            inherit pkgs self yae;
-          };
+          # zen-browser-twilight-bin = pkgs.callPackage ./pkgs/zen-browser-twilight-bin.nix {
+          #   inherit pkgs self yae;
+          # };
         };
 
         formatter = nixpkgs.legacyPackages."${system}".nixfmt-rfc-style;

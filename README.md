@@ -55,8 +55,6 @@ running `nix run github:Fuwn/tsutsumi#rui`. (or any other package in place of
 - [Yaak](https://yaak.app/) (`yaak`) - API client for modern developers
 - [Zen Browser](https://zen-browser.app/) (`zen-browser-bin`) - Firefox based
   browser with a focus on privacy and customisation (alpha release)
-- [Zen Browser](https://zen-browser.app/) (`zen-browser-twilight-bin`) Firefox based
-  browser with a focus on privacy and customisation (twilight release)
 
 ## Installation
 
