@@ -11,12 +11,12 @@
     "tag_predicate": "master"
   },
   "chibi-cli": {
-    "url": "https://github.com/CosmicPredator/chibi-cli/archive/1.0.2.tar.gz",
-    "sha256": "0dh0ifkc78ckk38jcw8yry2404v2i6njgi4p4dndizp50fp95pac",
-    "hash": "sha256-TN2SrgPl/thsI5fEJ62JYhNAhM8ecSbRmJOhw6aLADY=",
+    "url": "https://github.com/CosmicPredator/chibi-cli/archive/1.0.4.tar.gz",
+    "sha256": "0kxgm0g9jnk1i9900vcwmw32k6fhjnmklm5v84lzy12vl4dk9ria",
+    "hash": "sha256-KuY0G6FbBP8pQbtUOquV0JkpBq+cbQBSimFamR6or08=",
     "unpack": true,
     "type": "git",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "url_template": "https://github.com/CosmicPredator/chibi-cli/archive/{version}.tar.gz",
     "tag_predicate": "1."
   },
@@ -32,8 +32,8 @@
   },
   "mayu": {
     "url": "https://github.com/Fuwn/mayu/archive/main.tar.gz",
-    "sha256": "0zzd2x1c1dgqbqczvlgsccgnaclfnsllwsfbzxskz7xf2qzyy6ra",
-    "hash": "sha256-KhvvPxaunz91/8tpTqm2jjJlH2P60f0ZXvi1wEIX7X8=",
+    "sha256": "05cr56mbiimcagvn9g9dj9clm3b8cd5gaw7wv4rxgrrgsk11ir9c",
+    "hash": "sha256-LOUYwtQv59cz2fxw9UpjaI1KWZItvWT3U6zGuKopmRU=",
     "unpack": true,
     "type": "git",
     "version": "main",
