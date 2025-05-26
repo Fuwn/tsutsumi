@@ -17,7 +17,7 @@ buildGo123Module rec {
   };
 
   postPatch = ''
-    sed -i '3s/1.23.4/1.23.3/' go.mod
+    sed -i '3s/1\...\../1\.23\.0/' go.mod
   '';
 
   ldflags = [
