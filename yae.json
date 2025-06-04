@@ -32,8 +32,8 @@
   },
   "mayu": {
     "url": "https://github.com/Fuwn/mayu/archive/main.tar.gz",
-    "sha256": "05cr56mbiimcagvn9g9dj9clm3b8cd5gaw7wv4rxgrrgsk11ir9c",
-    "hash": "sha256-LOUYwtQv59cz2fxw9UpjaI1KWZItvWT3U6zGuKopmRU=",
+    "sha256": "1zz6plr85m95q8wni3jrsxb6pzc5a2hqq9kqxynxy6pgh1nd5x45",
+    "hash": "sha256-hfTSbIDvGt+t73gmjKFQhf1rVtdZjmg5wiXVgjK95v8=",
     "unpack": true,
     "type": "git",
     "version": "main",
