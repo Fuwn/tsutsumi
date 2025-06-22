@@ -11,12 +11,12 @@
     "tag_predicate": "master"
   },
   "chibi-cli": {
-    "url": "https://github.com/CosmicPredator/chibi-cli/archive/1.0.4.tar.gz",
-    "sha256": "0kxgm0g9jnk1i9900vcwmw32k6fhjnmklm5v84lzy12vl4dk9ria",
-    "hash": "sha256-KuY0G6FbBP8pQbtUOquV0JkpBq+cbQBSimFamR6or08=",
+    "url": "https://github.com/CosmicPredator/chibi-cli/archive/1.1.0.tar.gz",
+    "sha256": "0k4qwjd1xwy6djki8vbq4rpihl2vmrwamccclaa4ia3mxyav2k41",
+    "hash": "sha256-gUyxle91qEiUooyxqniuW1AYbyZ4bRSnbMbzHprkmEw=",
     "unpack": true,
     "type": "git",
-    "version": "1.0.4",
+    "version": "1.1.0",
     "url_template": "https://github.com/CosmicPredator/chibi-cli/archive/{version}.tar.gz",
     "tag_predicate": "1."
   },
