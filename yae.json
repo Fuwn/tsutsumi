@@ -18,7 +18,7 @@
     "type": "git",
     "version": "1.1.0",
     "url_template": "https://github.com/CosmicPredator/chibi-cli/archive/{version}.tar.gz",
-    "tag_predicate": "1."
+    "tag_predicate": "1\\."
   },
   "maple": {
     "url": "https://github.com/gemrest/maple/archive/main.tar.gz",
