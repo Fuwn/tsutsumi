@@ -32,8 +32,8 @@
   },
   "mayu": {
     "url": "https://github.com/Fuwn/mayu/archive/main.tar.gz",
-    "sha256": "0nh3gnmzz8bmszwcnhxk6dpa28wscvj7lvmy3k0m00q100bk6vqz",
-    "hash": "sha256-H28zFwABA1DBHL5ueuRmmiOhbjOzQ8v413Wh/6t9A1o=",
+    "sha256": "1adiwmcvsqs89xgy5rhvvb2dg70gqcrag8d100j5myd9cx3wwk0l",
+    "hash": "sha256-FEzOR2ep+VokAKGhpzLDD5zXxNob5uJfT0hjvVnlsak=",
     "unpack": true,
     "type": "git",
     "version": "main",
@@ -95,8 +95,8 @@
   },
   "yae": {
     "url": "https://github.com/Fuwn/yae/archive/main.tar.gz",
-    "sha256": "09mm0s14vhq19pqvzq0k63dr6pxf489qid37r29dyr8h1bbglpc6",
-    "hash": "sha256-hl361goQZd+SyGe0iBMirl+T2zAT4L/xTQHDTYIGtSY=",
+    "sha256": "0br37yjjpw2615pjy7ipbp3rzklsxkyvzk9l4vhsrz5nk8d1p95c",
+    "hash": "sha256-rKQbGpq2/KzhJjTNv/3sms6fx103Hi9vCUbwK6U/Iy8=",
     "unpack": true,
     "type": "git",
     "version": "main",
