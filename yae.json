@@ -22,8 +22,8 @@
   },
   "maple": {
     "url": "https://github.com/gemrest/maple/archive/main.tar.gz",
-    "sha256": "12j2x7fckr81kpw93ajkmbv5wwdw989wcadq8lwzzzbv18nqh9ph",
-    "hash": "sha256-8CaILQp7/f85RbgpxhNKvHFe9qpTqpH4nQHlydzpQoo=",
+    "sha256": "0gjf4gw8dfn19c416cljv27ylcwlhjqrxlqg6awplany766ly53z",
+    "hash": "sha256-fxRPjTneKnq5Mg/TnrGElDPqj9iSMhMIS8G6hvgjTj4=",
     "unpack": true,
     "type": "git",
     "version": "main",
