@@ -1,19 +1,19 @@
 {
   buildGo123Module,
   fetchFromGitHub,
-  source,
+  yae,
 }:
 buildGo123Module rec {
   pname = "chibi";
-  version = source.version;
-  vendorHash = "sha256-rcOsydbD+pTS7ZWPA99P8zwJvgO/7ro1KsNPPX3PluE=";
+  version = yae.chibi-cli.version;
+  vendorHash = "sha256-gM5qn60DSsd66rjbG5a50QE7gvewg/7hvCiJ34nAPpw=";
   doCheck = false;
 
   src = fetchFromGitHub {
     owner = "CosmicPredator";
     repo = "${pname}-cli";
-    rev = source.version;
-    hash = source.hash;
+    rev = yae.chibi-cli.version;
+    hash = yae.chibi-cli.hash;
   };
 
   postPatch = ''

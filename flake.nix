@@ -66,7 +66,7 @@
       {
         packages = {
           bollux = pkgs.callPackage ./pkgs/bollux { };
-          chibi = pkgs.callPackage ./pkgs/chibi-cli.nix { source = yae.chibi-cli; };
+          chibi = pkgs.callPackage ./pkgs/chibi-cli.nix { inherit yae; };
           cynic-cli = pkgs.callPackage ./pkgs/cynic-cli { };
           peerflix = pkgs.callPackage ./pkgs/peerflix { source = yae.peerflix; };
           wakatime-ls = pkgs.callPackage ./pkgs/wakatime-ls { };
