@@ -63,8 +63,8 @@
   },
   "rui": {
     "url": "https://github.com/Fuwn/rui/archive/main.tar.gz",
-    "sha256": "1k36bw9p69cl71pf3cy3xm2rn1gy7d0xd13bfwnrr4zns654d56i",
-    "hash": "sha256-0ZRGitH2k5wtd2uE1kE7/gWbRe3Ds+FuOJQlcxNfZsw=",
+    "sha256": "1ppf2w33z8jvmfrp4py71jjmkyvfs6pswklrm9svdfq67f2yy1mx",
+    "hash": "sha256-vQbvhTsGu7Z1qplOrq/RbvtZpQzHX3Kzq1uiPwYX7t4=",
     "unpack": true,
     "type": "git",
     "version": "main",
