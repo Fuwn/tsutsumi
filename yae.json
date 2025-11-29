@@ -95,12 +95,13 @@
   },
   "yae": {
     "url": "https://github.com/Fuwn/yae/archive/main.tar.gz",
-    "sha256": "0br37yjjpw2615pjy7ipbp3rzklsxkyvzk9l4vhsrz5nk8d1p95c",
-    "hash": "sha256-rKQbGpq2/KzhJjTNv/3sms6fx103Hi9vCUbwK6U/Iy8=",
+    "sha256": "1xghwdsmps0bb3z78gvh5hz8d5h8qziwnxlwd8kb3zankaxgz3gc",
+    "hash": "sha256-7I3/uppW/bEmapx2y+PHCJaGPixwP3T+WAvoW3Xj8PU=",
     "unpack": true,
     "type": "git",
     "version": "main",
     "url_template": "https://github.com/Fuwn/yae/archive/{version}.tar.gz",
+    "tag_predicate": "main",
     "force": true
   }
 }
