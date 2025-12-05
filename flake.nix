@@ -48,7 +48,7 @@
           name:
           let
             archive = pkgs.fetchzip {
-              inherit (yae.${name}) url sha256;
+              inherit (yae.${name}) url hash;
             };
           in
           ((import "${archive}/flake.nix").outputs {
