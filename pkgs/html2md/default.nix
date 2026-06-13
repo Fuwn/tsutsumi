@@ -1,16 +1,21 @@
 { buildGoModule, fetchFromGitHub }:
 buildGoModule rec {
   pname = "html2md";
-  version = "20d2bb2";
+  version = "b194d45";
   vendorHash = "sha256-pquwaU0UleC6Om2T6nICdU1+es9c+nTzF5Gn/9OiUkU=";
   doCheck = false;
 
   src = fetchFromGitHub {
-    owner = "nixports";
+    owner = "suntong";
     repo = pname;
-    rev = "20d2bb24a733bb7eca99539b337dc4cc5832ed8e";
-    hash = "sha256-/gZKSNhVq3Um+eLmi0h15dkQyMC7pEi13F/21B3tloQ=";
+    rev = "b194d45263a3ce8627eb93f1132ed2bc408687f6";
+    hash = "sha256-HXD+D/14VUBJJDO9EVaPnTQtdXRyLV4pdemPIG5b2to=";
   };
+
+  postPatch = ''
+    cp ${./go.mod} go.mod
+    cp ${./go.sum} go.sum
+  '';
 
   ldflags = [
     "-s"
