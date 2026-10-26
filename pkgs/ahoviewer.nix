@@ -33,7 +33,9 @@ pkgs.stdenv.mkDerivation {
     wrapGAppsHook4
   ];
 
-  configurePhase = "meson setup build --buildtype=release";
+  # Plugins need the girepository-1.0 API, which libpeas no longer uses, and
+  # this package never installed their typelibs, so build without them.
+  configurePhase = "meson setup build --buildtype=release -Dlibpeas=disabled";
 
   buildPhase = ''
     cd build
