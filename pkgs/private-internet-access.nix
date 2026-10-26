@@ -11,7 +11,7 @@ stdenvNoCC.mkDerivation rec {
 
   nativeBuildInputs = [
     autoPatchelfHook
-    pkgs.qt5.wrapQtAppsHook
+    pkgs.qt6.wrapQtAppsHook
   ];
 
   src = pkgs.fetchurl {
