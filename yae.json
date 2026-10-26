@@ -22,8 +22,8 @@
   },
   "maple": {
     "url": "https://github.com/gemrest/maple/archive/main.tar.gz",
-    "sha256": "1jvlzkh1j4ds76r7b4s0h41b7h3b7v827skwlq3wy20cxr117w20",
-    "hash": "sha256-QPATQu4MCM8HpnzqI9A+a8CzAoFAk3WyOboRGeD8dMs=",
+    "sha256": "1gkm1z49brpn4rpk338l9npzvzswnyzxzcs7sria54jv2lygk9zy",
+    "hash": "sha256-/qf5PBVbkqJi1kez37+3XP/9r00UjTFvJvbmlcgPdb4=",
     "unpack": true,
     "type": "binary",
     "version": "main",
@@ -31,8 +31,8 @@
   },
   "mayu": {
     "url": "https://github.com/Fuwn/mayu/archive/main.tar.gz",
-    "sha256": "1ng5pd2ci5k117nsdi0s4sl05rbp146kzh4nr1va76n8ihpxzlpr",
-    "hash": "sha256-+dLfL4zImqN2yJbAPw0Jd+UCqCYaxKbtCWGWyES75dk=",
+    "sha256": "19ch9j760ljfmrkb78vpj39frjiv3l66cv5rrjksybz07kkw1i7b",
+    "hash": "sha256-68TA5zzgL6+nzLlsZgwdO8rs0pB3o7Nmrk5SYI5MkKU=",
     "unpack": true,
     "type": "binary",
     "version": "main",
@@ -91,8 +91,8 @@
   },
   "yae": {
     "url": "https://github.com/Fuwn/yae/archive/main.tar.gz",
-    "sha256": "1xghwdsmps0bb3z78gvh5hz8d5h8qziwnxlwd8kb3zankaxgz3gc",
-    "hash": "sha256-7I3/uppW/bEmapx2y+PHCJaGPixwP3T+WAvoW3Xj8PU=",
+    "sha256": "0dvk54py675r9fy8pd8brsdijz50l4ybbs8r8fpwn5i470ksif0h",
+    "hash": "sha256-ELioJzgkFsuvQxnptTyhoHwZm84LtYu8S7kc4y8pczc=",
     "unpack": true,
     "type": "binary",
     "version": "main",
