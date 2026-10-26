@@ -1,9 +1,9 @@
 {
-  buildGo123Module,
+  buildGoModule,
   fetchFromGitHub,
   yae,
 }:
-buildGo123Module rec {
+buildGoModule rec {
   pname = "chibi";
   version = yae.chibi-cli.version;
   vendorHash = "sha256-gM5qn60DSsd66rjbG5a50QE7gvewg/7hvCiJ34nAPpw=";
@@ -15,10 +15,6 @@ buildGo123Module rec {
     rev = yae.chibi-cli.version;
     hash = yae.chibi-cli.hash;
   };
-
-  postPatch = ''
-    sed -i '3s/1\...\../1\.23\.0/' go.mod
-  '';
 
   ldflags = [
     "-s"

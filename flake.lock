@@ -49,10 +49,10 @@
         ]
       },
       "locked": {
-        "lastModified": 1748242784,
+        "lastModified": 1793018491,
         "owner": "Fuwn",
         "repo": "gigi",
-        "rev": "d7f71e7d2f91437969d0a6583363cb9ab262015d",
+        "rev": "30121ba794f7cad084c7462f4fb3e3eec3a3c77b",
         "type": "github"
       },
       "original": {
@@ -119,11 +119,10 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1748240525,
-        "narHash": "sha256-yg1l7bGhwjwRqiINKj+V7Qh6MTQsloFkFG5BhtX+iKM=",
+        "lastModified": 1793015296,
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "79277868d5741fc028adab59000ceb640d5aa639",
+        "rev": "eaad74a98fa0306471dc64c6a1db41221703fd0a",
         "type": "github"
       },
       "original": {

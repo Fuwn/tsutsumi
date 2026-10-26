@@ -117,7 +117,8 @@
           buildInputs = [
             pkgs.just
             self.packages.${system}.yae
-          ] ++ self.checks.${system}.pre-commit-check.enabledPackages;
+          ]
+          ++ self.checks.${system}.pre-commit-check.enabledPackages;
         };
       }
     );
