@@ -62,6 +62,12 @@
 
             self = archive;
           }).packages.${system}.default;
+
+        nixCheckTools = [
+          pkgs.deadnix
+          pkgs.nixfmt
+          pkgs.statix
+        ];
       in
       {
         packages = {
@@ -99,25 +105,20 @@
 
         formatter = nixpkgs.legacyPackages."${system}".nixfmt-rfc-style;
 
-        checks.pre-commit-check = pre-commit-hooks.lib.${system}.run {
-          src = ./.;
-
-          hooks = {
-            deadnix.enable = true;
-            flake-checker.enable = true;
-            nixfmt-rfc-style.enable = true;
-            statix.enable = true;
-          };
-        };
+        checks.nix = pkgs.runCommand "tsutsumi-nix-check" { nativeBuildInputs = nixCheckTools; } ''
+          cd ${self}
+          deadnix --fail .
+          nixfmt --check $(find . -name '*.nix')
+          statix check .
+          touch "$out"
+        '';
 
         devShells.default = pkgs.mkShell {
-          inherit (self.checks.${system}.pre-commit-check) shellHook;
-
           buildInputs = [
             pkgs.just
             self.packages.${system}.yae
           ]
-          ++ self.checks.${system}.pre-commit-check.enabledPackages;
+          ++ nixCheckTools;
         };
       }
     );
@@ -152,6 +153,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    # Rui's flake requires this input, and yaePackage passes it through.
     pre-commit-hooks = {
       url = "github:cachix/git-hooks.nix";
 
