@@ -5,10 +5,9 @@
     "sha256": "1yckqkym3bhxhwi3sida1qkr0v38p12y6658jnqiivgx8q3j1ddx",
     "hash": "sha256-vbUgB0b97RixlagY40W4aGyQJw6qRT0ihx2uUf3Ek/k=",
     "unpack": true,
-    "type": "git",
+    "type": "binary",
     "version": "master",
-    "url_template": "https://github.com/ahodesuka/ahoviewer/archive/{version}.tar.gz",
-    "tag_predicate": "master"
+    "url_template": "https://github.com/ahodesuka/ahoviewer/archive/{version}.tar.gz"
   },
   "chibi-cli": {
     "url": "https://github.com/CosmicPredator/chibi-cli/archive/1.1.0.tar.gz",
@@ -25,21 +24,18 @@
     "sha256": "1jvlzkh1j4ds76r7b4s0h41b7h3b7v827skwlq3wy20cxr117w20",
     "hash": "sha256-QPATQu4MCM8HpnzqI9A+a8CzAoFAk3WyOboRGeD8dMs=",
     "unpack": true,
-    "type": "git",
+    "type": "binary",
     "version": "main",
-    "url_template": "https://github.com/gemrest/maple/archive/{version}.tar.gz",
-    "force": true
+    "url_template": "https://github.com/gemrest/maple/archive/{version}.tar.gz"
   },
   "mayu": {
     "url": "https://github.com/Fuwn/mayu/archive/main.tar.gz",
     "sha256": "1ng5pd2ci5k117nsdi0s4sl05rbp146kzh4nr1va76n8ihpxzlpr",
     "hash": "sha256-+dLfL4zImqN2yJbAPw0Jd+UCqCYaxKbtCWGWyES75dk=",
     "unpack": true,
-    "type": "git",
+    "type": "binary",
     "version": "main",
-    "url_template": "https://github.com/Fuwn/mayu/archive/{version}.tar.gz",
-    "tag_predicate": "main",
-    "force": true
+    "url_template": "https://github.com/Fuwn/mayu/archive/{version}.tar.gz"
   },
   "peerflix": {
     "url": "https://github.com/mafintosh/peerflix/archive/v0.39.0.tar.gz",
@@ -53,23 +49,22 @@
     "pinned": true
   },
   "ripper": {
-    "url": "https://github.com/Fuwn/reddit-thread-ripper/archive/master.tar.gz",
-    "sha256": "09sc14917nhyix81y1znbrzvn21sgasn5la4giab0s7r2vpa17fs",
-    "hash": "sha256-2p2g7hb5aLBUfETRYrV6Ogi7f172Bx9Qjx7aExIJTCc=",
+    "url": "https://github.com/saucecode/reddit-thread-ripper/archive/master.tar.gz",
+    "sha256": "1f0r56n3mkqdf3dilzrsdhxk8r4dr8kvwzn52q3sqrzl028dbxpx",
+    "hash": "sha256-/fbVkAD0Z6wHFsV+vifKjWQ0O2w6fxrbcA3POqwpGbg=",
     "unpack": true,
-    "type": "git",
+    "type": "binary",
     "version": "master",
-    "url_template": "https://github.com/Fuwn/reddit-thread-ripper/archive/{version}.tar.gz"
+    "url_template": "https://github.com/saucecode/reddit-thread-ripper/archive/{version}.tar.gz"
   },
   "rui": {
     "url": "https://github.com/Fuwn/rui/archive/main.tar.gz",
     "sha256": "1ppf2w33z8jvmfrp4py71jjmkyvfs6pswklrm9svdfq67f2yy1mx",
     "hash": "sha256-vQbvhTsGu7Z1qplOrq/RbvtZpQzHX3Kzq1uiPwYX7t4=",
     "unpack": true,
-    "type": "git",
+    "type": "binary",
     "version": "main",
-    "url_template": "https://github.com/Fuwn/rui/archive/{version}.tar.gz",
-    "force": true
+    "url_template": "https://github.com/Fuwn/rui/archive/{version}.tar.gz"
   },
   "thorium": {
     "url": "https://github.com/Alex313031/thorium/releases/download/M126.0.6478.246/Thorium_Browser_126.0.6478.246_Th24_SSE4.AppImage",
@@ -98,10 +93,8 @@
     "sha256": "1xghwdsmps0bb3z78gvh5hz8d5h8qziwnxlwd8kb3zankaxgz3gc",
     "hash": "sha256-7I3/uppW/bEmapx2y+PHCJaGPixwP3T+WAvoW3Xj8PU=",
     "unpack": true,
-    "type": "git",
+    "type": "binary",
     "version": "main",
-    "url_template": "https://github.com/Fuwn/yae/archive/{version}.tar.gz",
-    "tag_predicate": "main",
-    "force": true
+    "url_template": "https://github.com/Fuwn/yae/archive/{version}.tar.gz"
   }
 }
