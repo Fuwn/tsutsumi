@@ -19,10 +19,26 @@ stdenvNoCC.mkDerivation rec {
     hash = "sha256-bxTGPHt/vF50guovtCOBr63m3IvPmBZjKBOt+hEsphM=";
   };
 
+  # These are the libraries PIA's binaries and bundled QML plugins load but do
+  # not ship, which qt6.full used to provide before Nixpkgs removed it.
   buildInputs = with pkgs; [
-    qt6.full
+    glibc
     libcap_ng
+    libglvnd
+    libxkbcommon
+    qt6.qt3d
+    qt6.qtbase
+    qt6.qtdeclarative
+    qt6.qtquicktimeline
+    qt6.qtscxml
+    qt6.qtsvg
+    qt6.qtvirtualkeyboard
+    stdenv.cc.cc.lib
   ];
+
+  # Only the bundled Lottie QML plugin links this library, which Qt 6.12
+  # dropped, and nothing in PIA imports that plugin.
+  autoPatchelfIgnoreMissingDeps = [ "libQt6Bodymovin.so.6" ];
 
   installPhase = ''
     runHook preInstall
