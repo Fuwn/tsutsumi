@@ -85,7 +85,6 @@
           private-internet-access = pkgs.callPackage ./pkgs/private-internet-access.nix { };
           rui = yaePackage "rui";
           ripper = pkgs.callPackage ./pkgs/ripper.nix { source = yae.ripper; };
-          suzuri = pkgs.callPackage ./pkgs/suzuri.nix { inherit (self.packages.${system}) html2md; };
           swaddle = pkgs.callPackage ./pkgs/swaddle.nix { };
           t = pkgs.callPackage ./pkgs/t { };
           thorium = pkgs.callPackage ./pkgs/thorium.nix { inherit yae; };

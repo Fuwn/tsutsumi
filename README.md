@@ -43,7 +43,6 @@ running `nix run github:Fuwn/tsutsumi#rui`. (or any other package in place of
   configuration files
 - [reddit-thread-ripper](github.com/saucecode/reddit-thread-ripper) - a Python
   program/library to download an entire reddit thread's comment section
-- [`suzuri`](https://github.com/Fuwn/suzuri) - Command-line interface to [sumi.news](https://sumi.news)
 - [swaddle](https://github.com/ATTron/swaddle) - `swayidle` inhibitor when
   watching content or listening to audio
 - [t](https://github.com/juev/t) - Command-line TODO list manager for
